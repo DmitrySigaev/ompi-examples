@@ -1,0 +1,3360 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\attribute\attribute.c">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\attribute\attribute_predefined.c">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\class\ompi_free_list.c">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\class\ompi_rb_tree.c">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\class\ompi_seq_tracker.c">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\communicator\comm.c">
+      <Filter>communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\communicator\comm_cid.c">
+      <Filter>communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\communicator\comm_init.c">
+      <Filter>communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_args.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_create.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_create_contiguous.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_create_indexed.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_create_struct.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_create_vector.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_external32.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_match_size.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_module.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_sndrcv.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errcode-internal.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errcode.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errhandler.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errhandler_invoke.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errhandler_predefined.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\file\file.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group_bitmap.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group_init.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group_plist.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group_set_rank.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group_sporadic.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group_strided.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\info\info.c">
+      <Filter>info</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\op\op.c">
+      <Filter>op</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\peruse\peruse.c">
+      <Filter>peruse</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\peruse\peruse_module.c">
+      <Filter>peruse</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\proc\proc.c">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\grequest.c">
+      <Filter>request</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\request.c">
+      <Filter>request</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\req_test.c">
+      <Filter>request</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\req_wait.c">
+      <Filter>request</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_cr.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_module_exchange.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_mpi_abort.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_mpi_finalize.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_mpi_init.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_mpi_params.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_mpi_preconnect.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\win\win.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\abort.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\accumulate.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\address.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\add_error_class.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\add_error_code.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\add_error_string.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\allgather.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\allgatherv.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\alloc_mem.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\allreduce.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\alltoall.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\alltoallv.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\alltoallw.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\attr_delete.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\attr_fn.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\attr_get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\attr_put.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\barrier.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\bcast.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\bsend.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\bsend_init.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\buffer_attach.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\buffer_detach.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cancel.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cartdim_get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cart_coords.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cart_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cart_get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cart_map.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cart_rank.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cart_shift.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\cart_sub.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\close_port.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_accept.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_call_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_compare.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_connect.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_create_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_create_keyval.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_delete_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_disconnect.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_dup.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_free_keyval.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_get_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_get_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_get_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_get_parent.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_group.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_join.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_rank.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_remote_group.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_remote_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_set_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_set_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_set_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_spawn.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_spawn_multiple.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_split.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\comm_test_inter.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\dims_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\errhandler_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\errhandler_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\errhandler_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\errhandler_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\errhandler_get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\errhandler_set.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\error_class.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\error_string.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\exscan.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_call_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_close.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_create_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_delete.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_amode.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_atomicity.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_byte_offset.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_group.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_info.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_position.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_position_shared.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_type_extent.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_get_view.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_iread.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_iread_at.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_iread_shared.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_iwrite.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_iwrite_at.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_iwrite_shared.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_open.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_preallocate.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_all.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_all_begin.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_all_end.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_at.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_at_all.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_at_all_begin.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_at_all_end.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_ordered.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_ordered_begin.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_ordered_end.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_read_shared.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_seek.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_seek_shared.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_set_atomicity.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_set_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_set_info.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_set_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_set_view.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_sync.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_all.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_all_begin.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_all_end.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_at.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_at_all.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_at_all_begin.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_at_all_end.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_ordered.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_ordered_begin.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_ordered_end.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\file_write_shared.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\finalize.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\finalized.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\free_mem.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\gather.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\gatherv.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\get_address.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\get_count.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\get_elements.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\get_processor_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\get_version.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\graphdims_get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\graph_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\graph_get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\graph_map.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\graph_neighbors.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\graph_neighbors_count.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\grequest_complete.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\grequest_start.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_compare.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_difference.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_excl.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_incl.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_intersection.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_range_excl.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_range_incl.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_rank.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_translate_ranks.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\group_union.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\ibsend.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_delete.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_dup.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_get.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_get_nkeys.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_get_nthkey.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_get_valuelen.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\info_set.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\init.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\initialized.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\init_thread.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\intercomm_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\intercomm_merge.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\iprobe.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\irecv.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\irsend.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\isend.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\issend.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\is_thread_main.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\keyval_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\keyval_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\lookup_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\open_port.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\op_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\op_commutative.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\op_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\op_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\op_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\pack.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\pack_external.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\pack_external_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\pack_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\pcontrol.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\probe.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\publish_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\put.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\query_thread.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\recv.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\recv_init.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\reduce.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\reduce_local.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\reduce_scatter.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\register_datarep.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\request_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\request_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\request_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\request_get_status.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\rsend.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\rsend_init.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\scan.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\scatter.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\scatterv.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\send.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\sendrecv.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\sendrecv_replace.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\send_init.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\ssend.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\ssend_init.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\start.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\startall.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\status_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\status_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\status_set_cancelled.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\status_set_elements.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\test.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\testall.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\testany.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\testsome.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\test_cancelled.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\topo_test.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_commit.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_contiguous.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_darray.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_f90_complex.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_f90_integer.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_f90_real.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_hindexed.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_hvector.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_indexed_block.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_keyval.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_resized.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_struct.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_create_subarray.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_delete_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_dup.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_extent.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_free_keyval.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_get_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_get_contents.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_get_envelope.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_get_extent.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_get_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_get_true_extent.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_hindexed.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_hvector.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_indexed.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_lb.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_match_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_set_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_set_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_size.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_struct.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_ub.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\type_vector.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\unpack.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\unpack_external.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\unpublish_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\wait.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\waitall.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\waitany.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\waitsome.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_c2f.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_call_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_complete.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_create.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_create_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_create_keyval.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_delete_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_f2c.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_fence.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_free.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_free_keyval.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_get_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_get_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_get_group.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_get_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_lock.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_post.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_set_attr.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_set_errhandler.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_set_name.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_start.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_test.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_unlock.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\win_wait.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\wtick.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\wtime.c">
+      <Filter>mpi\c</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pabort.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\paccumulate.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\paddress.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\padd_error_class.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\padd_error_code.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\padd_error_string.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pallgather.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pallgatherv.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\palloc_mem.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pallreduce.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\palltoall.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\palltoallv.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\palltoallw.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pattr_delete.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pattr_get.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pattr_put.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pbarrier.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pbcast.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pbsend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pbsend_init.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pbuffer_attach.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pbuffer_detach.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcancel.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcartdim_get.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcart_coords.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcart_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcart_get.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcart_map.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcart_rank.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcart_shift.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcart_sub.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pclose_port.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_accept.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_call_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_compare.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_connect.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_create_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_create_keyval.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_delete_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_disconnect.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_dup.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_free_keyval.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_get_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_get_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_get_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_get_parent.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_group.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_join.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_rank.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_remote_group.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_remote_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_set_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_set_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_set_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_spawn.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_spawn_multiple.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_split.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pcomm_test_inter.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pdims_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perrhandler_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perrhandler_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perrhandler_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perrhandler_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perrhandler_get.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perrhandler_set.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perror_class.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\perror_string.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pexscan.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_call_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_close.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_create_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_delete.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_amode.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_atomicity.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_byte_offset.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_group.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_info.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_position.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_position_shared.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_type_extent.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_get_view.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_iread.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_iread_at.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_iread_shared.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_iwrite.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_iwrite_at.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_iwrite_shared.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_open.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_preallocate.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_all.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_all_begin.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_all_end.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_at.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_at_all.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_at_all_begin.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_at_all_end.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_ordered.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_ordered_begin.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_ordered_end.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_read_shared.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_seek.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_seek_shared.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_set_atomicity.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_set_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_set_info.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_set_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_set_view.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_sync.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_all.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_all_begin.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_all_end.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_at.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_at_all.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_at_all_begin.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_at_all_end.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_ordered.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_ordered_begin.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_ordered_end.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfile_write_shared.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfinalize.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfinalized.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pfree_mem.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgather.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgatherv.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pget.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pget_address.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pget_count.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pget_elements.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pget_processor_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pget_version.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgraphdims_get.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgraph_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgraph_get.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgraph_map.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgraph_neighbors.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgraph_neighbors_count.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgrequest_complete.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgrequest_start.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_compare.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_difference.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_excl.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_incl.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_intersection.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_range_excl.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_range_incl.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_rank.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_translate_ranks.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pgroup_union.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pibsend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_delete.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_dup.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_get.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_get_nkeys.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_get_nthkey.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_get_valuelen.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinfo_set.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinit.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinitialized.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pinit_thread.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pintercomm_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pintercomm_merge.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\piprobe.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pirecv.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pirsend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pisend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pissend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pis_thread_main.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pkeyval_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pkeyval_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\plookup_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\popen_port.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pop_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pop_commutative.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pop_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pop_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pop_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ppack.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ppack_external.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ppack_external_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ppack_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ppcontrol.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pprobe.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ppublish_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pput.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pquery_thread.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\precv.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\precv_init.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\preduce.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\preduce_local.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\preduce_scatter.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pregister_datarep.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\prequest_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\prequest_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\prequest_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\prequest_get_status.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\prsend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\prsend_init.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pscan.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pscatter.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pscatterv.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\psend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\psendrecv.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\psendrecv_replace.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\psend_init.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pssend.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pssend_init.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pstart.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pstartall.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pstatus_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pstatus_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pstatus_set_cancelled.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pstatus_set_elements.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptest.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptestall.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptestany.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptestsome.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptest_cancelled.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptopo_test.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_commit.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_contiguous.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_darray.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_f90_complex.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_f90_integer.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_f90_real.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_hindexed.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_hvector.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_indexed_block.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_keyval.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_resized.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_struct.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_create_subarray.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_delete_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_dup.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_extent.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_free_keyval.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_get_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_get_contents.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_get_envelope.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_get_extent.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_get_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_get_true_extent.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_hindexed.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_hvector.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_indexed.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_lb.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_match_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_set_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_set_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_size.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_struct.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_ub.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\ptype_vector.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\punpack.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\punpack_external.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\punpublish_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwait.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwaitall.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwaitany.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwaitsome.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_c2f.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_call_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_complete.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_create.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_create_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_create_keyval.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_delete_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_f2c.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_fence.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_free.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_free_keyval.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_get_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_get_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_get_group.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_get_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_lock.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_post.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_set_attr.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_set_errhandler.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_set_name.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_start.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_test.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_unlock.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwin_wait.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwtick.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pwtime.c">
+      <Filter>mpi\c\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\base\allocator_base_close.c">
+      <Filter>mca\allocator\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\base\allocator_base_open.c">
+      <Filter>mca\allocator\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\basic\allocator_basic.c">
+      <Filter>mca\allocator\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\bucket\allocator_bucket.c">
+      <Filter>mca\allocator\bucket</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\bucket\allocator_bucket_alloc.c">
+      <Filter>mca\allocator\bucket</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\bml_base_btl.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\bml_base_close.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\bml_base_endpoint.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\bml_base_ft.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\bml_base_init.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\bml_base_open.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\r2\bml_r2.c">
+      <Filter>mca\bml\r2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\r2\bml_r2_component.c">
+      <Filter>mca\bml\r2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\r2\bml_r2_ft.c">
+      <Filter>mca\bml\r2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\base\btl_base_close.c">
+      <Filter>mca\btl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\base\btl_base_error.c">
+      <Filter>mca\btl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\base\btl_base_mca.c">
+      <Filter>mca\btl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\base\btl_base_open.c">
+      <Filter>mca\btl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\base\btl_base_select.c">
+      <Filter>mca\btl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\self\btl_self.c">
+      <Filter>mca\btl\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\self\btl_self_component.c">
+      <Filter>mca\btl\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\self\btl_self_frag.c">
+      <Filter>mca\btl\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\sm\btl_sm.c">
+      <Filter>mca\btl\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\sm\btl_sm_component.c">
+      <Filter>mca\btl\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\sm\btl_sm_frag.c">
+      <Filter>mca\btl\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp.c">
+      <Filter>mca\btl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_component.c">
+      <Filter>mca\btl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_endpoint.c">
+      <Filter>mca\btl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_frag.c">
+      <Filter>mca\btl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_ft.c">
+      <Filter>mca\btl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_proc.c">
+      <Filter>mca\btl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\base\coll_base_close.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\base\coll_base_comm_select.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\base\coll_base_comm_unselect.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\base\coll_base_find_available.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\base\coll_base_open.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_allgather.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_allgatherv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_allreduce.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_alltoall.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_alltoallv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_alltoallw.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_barrier.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_bcast.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_component.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_exscan.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_gather.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_gatherv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_module.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_reduce.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_reduce_scatter.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_scan.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_scatter.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic_scatterv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch.c">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch_allreduce.c">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch_barrier.c">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch_bcast.c">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch_component.c">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch_reduce.c">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch_tmpcoll.c">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_allgather.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_allgatherv.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_allreduce.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_alltoall.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_alltoallv.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_alltoallw.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_barrier.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_bcast.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_component.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_exscan.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_gather.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_gatherv.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_module.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_reduce.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_reduce_scatter.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_scan.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_scatter.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self_scatterv.c">
+      <Filter>mca\coll\self</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_allgather.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_allgatherv.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_allreduce.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_alltoall.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_alltoallv.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_alltoallw.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_barrier.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_bcast.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_component.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_exscan.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_gather.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_gatherv.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_module.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_reduce.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_reduce_scatter.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_scan.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_scatter.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm_scatterv.c">
+      <Filter>mca\coll\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_bcast.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_component.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_exscan.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_gather.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_gatherv.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_module.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_reduce.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_reduce_scatter.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_scan.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_scatter.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync_scatterv.c">
+      <Filter>mca\coll\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\common\sm\common_sm.c">
+      <Filter>mca\common\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\common\sm\common_sm_rml.c">
+      <Filter>mca\common\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\crcp\base\crcp_base_close.c">
+      <Filter>mca\crcp\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\crcp\base\crcp_base_fns.c">
+      <Filter>mca\crcp\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\crcp\base\crcp_base_open.c">
+      <Filter>mca\crcp\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\crcp\base\crcp_base_select.c">
+      <Filter>mca\crcp\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\base\dpm_base_close.c">
+      <Filter>mca\dpm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\base\dpm_base_common_fns.c">
+      <Filter>mca\dpm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\base\dpm_base_null_fns.c">
+      <Filter>mca\dpm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\base\dpm_base_open.c">
+      <Filter>mca\dpm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\base\dpm_base_select.c">
+      <Filter>mca\dpm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\orte\dpm_orte.c">
+      <Filter>mca\dpm\orte</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\orte\dpm_orte_component.c">
+      <Filter>mca\dpm\orte</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_close.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_component_list.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_delete.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_file_select.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_find_available.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_open.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_register_datarep.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_request.c">
+      <Filter>mca\io\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_alloc.c">
+      <Filter>mca\mpool\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_close.c">
+      <Filter>mca\mpool\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_init.c">
+      <Filter>mca\mpool\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_lookup.c">
+      <Filter>mca\mpool\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_mem_cb.c">
+      <Filter>mca\mpool\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_open.c">
+      <Filter>mca\mpool\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_tree.c">
+      <Filter>mca\mpool\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\rdma\mpool_rdma_component.c">
+      <Filter>mca\mpool\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\rdma\mpool_rdma_module.c">
+      <Filter>mca\mpool\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\sm\mpool_sm_component.c">
+      <Filter>mca\mpool\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\sm\mpool_sm_module.c">
+      <Filter>mca\mpool\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mtl\base\mtl_base_component.c">
+      <Filter>mca\mtl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\base\op_base_close.c">
+      <Filter>mca\op\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\base\op_base_find_available.c">
+      <Filter>mca\op\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\base\op_base_functions.c">
+      <Filter>mca\op\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\base\op_base_open.c">
+      <Filter>mca\op\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\base\op_base_op_select.c">
+      <Filter>mca\op\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\base\osc_base_close.c">
+      <Filter>mca\osc\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\base\osc_base_init.c">
+      <Filter>mca\osc\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\base\osc_base_obj_convert.c">
+      <Filter>mca\osc\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\base\osc_base_open.c">
+      <Filter>mca\osc\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_buffer.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_comm.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_component.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_data_move.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_longreq.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_mpireq.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_replyreq.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_sendreq.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_sync.c">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_comm.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_component.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_data_move.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_longreq.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_replyreq.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_sendreq.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_sync.c">
+      <Filter>mca\osc\rdma</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_bsend.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_close.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_ft.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_open.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_recvreq.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_request.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_select.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_sendreq.c">
+      <Filter>mca\pml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_cancel.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_component.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_probe.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_recv.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_recvreq.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_request.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_send.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_sendreq.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_start.c">
+      <Filter>mca\pml\cm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_comm.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_component.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_iprobe.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_irecv.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_isend.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_progress.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_rdma.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_rdmafrag.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_recvfrag.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_recvreq.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_sendreq.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_start.c">
+      <Filter>mca\pml\ob1</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\base\pubsub_base_close.c">
+      <Filter>mca\pubsub\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\base\pubsub_base_null_fns.c">
+      <Filter>mca\pubsub\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\base\pubsub_base_open.c">
+      <Filter>mca\pubsub\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\base\pubsub_base_select.c">
+      <Filter>mca\pubsub\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\orte\pubsub_orte.c">
+      <Filter>mca\pubsub\orte</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\orte\pubsub_orte_component.c">
+      <Filter>mca\pubsub\orte</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\rcache\base\rcache_base_close.c">
+      <Filter>mca\rcache\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\rcache\base\rcache_base_create.c">
+      <Filter>mca\rcache\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\rcache\base\rcache_base_open.c">
+      <Filter>mca\rcache\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_cartdim_get.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_cart_coords.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_cart_create.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_cart_get.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_cart_rank.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_cart_shift.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_cart_sub.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_close.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_comm_select.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_comm_unselect.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_find_available.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_graphdims_get.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_graph_create.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_graph_get.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_graph_neighbors.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_graph_neighbors_count.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\topo_base_open.c">
+      <Filter>mca\topo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\unity\topo_unity.c">
+      <Filter>mca\topo\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\unity\topo_unity_cart_map.c">
+      <Filter>mca\topo\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\unity\topo_unity_component.c">
+      <Filter>mca\topo\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\unity\topo_unity_graph_map.c">
+      <Filter>mca\topo\unity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\attribute\attribute.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\class\ompi_free_list.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\class\ompi_rb_tree.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\class\ompi_seq_tracker.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\communicator\communicator.h">
+      <Filter>communicator</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype.h">
+      <Filter>datatype</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\datatype\ompi_datatype_internal.h">
+      <Filter>datatype</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errcode-internal.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errcode.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errhandler.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\errhandler\errhandler_predefined.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\file\file.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group.h">
+      <Filter>group</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\group\group_dbg.h">
+      <Filter>group</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\include\mpif-common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\include\mpif-mpi-io.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\include\ompi\constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\include\ompi\memchecker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\include\ompi\totalview.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\include\ompi\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\info\info.h">
+      <Filter>info</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\op\op.h">
+      <Filter>op</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\peruse\peruse-internal.h">
+      <Filter>peruse</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\peruse\peruse.h">
+      <Filter>peruse</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\proc\proc.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\grequest.h">
+      <Filter>request</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\request.h">
+      <Filter>request</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\request_dbg.h">
+      <Filter>request</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\request\request_default.h">
+      <Filter>request</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\mpiruntime.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_cr.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\ompi_module_exchange.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\runtime\params.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\win\win.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\c\bindings.h">
+      <Filter>mpi\c</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mpi\c\profile\pbindings.h">
+      <Filter>mpi\c\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\allocator.h">
+      <Filter>mca\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\base\base.h">
+      <Filter>mca\allocator\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\allocator\base\static-components.h">
+      <Filter>mca\allocator\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\basic\allocator_basic.h">
+      <Filter>mca\allocator\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\allocator\bucket\allocator_bucket_alloc.h">
+      <Filter>mca\allocator\bucket</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\bml.h">
+      <Filter>mca\bml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\base.h">
+      <Filter>mca\bml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\base\bml_base_btl.h">
+      <Filter>mca\bml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\bml\base\static-components.h">
+      <Filter>mca\bml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\r2\bml_r2.h">
+      <Filter>mca\bml\r2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\bml\r2\bml_r2_ft.h">
+      <Filter>mca\bml\r2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\btl.h">
+      <Filter>mca\btl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\base\base.h">
+      <Filter>mca\btl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\base\btl_base_error.h">
+      <Filter>mca\btl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\btl\base\static-components.h">
+      <Filter>mca\btl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\self\btl_self.h">
+      <Filter>mca\btl\self</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\self\btl_self_endpoint.h">
+      <Filter>mca\btl\self</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\self\btl_self_frag.h">
+      <Filter>mca\btl\self</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\sm\btl_sm.h">
+      <Filter>mca\btl\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\sm\btl_sm_endpoint.h">
+      <Filter>mca\btl\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\sm\btl_sm_fifo.h">
+      <Filter>mca\btl\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\sm\btl_sm_frag.h">
+      <Filter>mca\btl\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp.h">
+      <Filter>mca\btl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_addr.h">
+      <Filter>mca\btl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_endpoint.h">
+      <Filter>mca\btl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_frag.h">
+      <Filter>mca\btl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_ft.h">
+      <Filter>mca\btl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_hdr.h">
+      <Filter>mca\btl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\btl\tcp\btl_tcp_proc.h">
+      <Filter>mca\btl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\coll.h">
+      <Filter>mca\coll</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\base\base.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\base\coll_tags.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\coll\base\static-components.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\basic\coll_basic.h">
+      <Filter>mca\coll\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\hierarch\coll_hierarch.h">
+      <Filter>mca\coll\hierarch</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\self\coll_self.h">
+      <Filter>mca\coll\self</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sm\coll_sm.h">
+      <Filter>mca\coll\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\coll\sync\coll_sync.h">
+      <Filter>mca\coll\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\common\sm\common_sm.h">
+      <Filter>mca\common\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\common\sm\common_sm_rml.h">
+      <Filter>mca\common\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\crcp\crcp.h">
+      <Filter>mca\crcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\crcp\base\base.h">
+      <Filter>mca\crcp\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\crcp\base\static-components.h">
+      <Filter>mca\crcp\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\dpm.h">
+      <Filter>mca\dpm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\base\base.h">
+      <Filter>mca\dpm\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\dpm\base\static-components.h">
+      <Filter>mca\dpm\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\dpm\orte\dpm_orte.h">
+      <Filter>mca\dpm\orte</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\io.h">
+      <Filter>mca\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\base.h">
+      <Filter>mca\io\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\io\base\io_base_request.h">
+      <Filter>mca\io\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\io\base\static-components.h">
+      <Filter>mca\io\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\mpool.h">
+      <Filter>mca\mpool</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\base.h">
+      <Filter>mca\mpool\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_mem_cb.h">
+      <Filter>mca\mpool\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\base\mpool_base_tree.h">
+      <Filter>mca\mpool\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\mpool\base\static-components.h">
+      <Filter>mca\mpool\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\rdma\mpool_rdma.h">
+      <Filter>mca\mpool\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mpool\sm\mpool_sm.h">
+      <Filter>mca\mpool\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mtl\mtl.h">
+      <Filter>mca\mtl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mtl\base\base.h">
+      <Filter>mca\mtl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\mtl\base\mtl_base_datatype.h">
+      <Filter>mca\mtl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\mtl\base\static-components.h">
+      <Filter>mca\mtl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\op.h">
+      <Filter>mca\op</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\base\base.h">
+      <Filter>mca\op\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\op\base\functions.h">
+      <Filter>mca\op\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\op\base\static-components.h">
+      <Filter>mca\op\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\osc.h">
+      <Filter>mca\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\base\base.h">
+      <Filter>mca\osc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\base\osc_base_obj_convert.h">
+      <Filter>mca\osc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\osc\base\static-components.h">
+      <Filter>mca\osc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_buffer.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_data_move.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_header.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_longreq.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_mpireq.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_replyreq.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\pt2pt\osc_pt2pt_sendreq.h">
+      <Filter>mca\osc\pt2pt</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma.h">
+      <Filter>mca\osc\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_data_move.h">
+      <Filter>mca\osc\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_header.h">
+      <Filter>mca\osc\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_longreq.h">
+      <Filter>mca\osc\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_obj_convert.h">
+      <Filter>mca\osc\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_replyreq.h">
+      <Filter>mca\osc\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\osc\rdma\osc_rdma_sendreq.h">
+      <Filter>mca\osc\rdma</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\pml.h">
+      <Filter>mca\pml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\base.h">
+      <Filter>mca\pml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_bsend.h">
+      <Filter>mca\pml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_recvreq.h">
+      <Filter>mca\pml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_request.h">
+      <Filter>mca\pml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_request_dbg.h">
+      <Filter>mca\pml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\base\pml_base_sendreq.h">
+      <Filter>mca\pml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\pml\base\static-components.h">
+      <Filter>mca\pml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm.h">
+      <Filter>mca\pml\cm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_component.h">
+      <Filter>mca\pml\cm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_recvreq.h">
+      <Filter>mca\pml\cm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_request.h">
+      <Filter>mca\pml\cm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\cm\pml_cm_sendreq.h">
+      <Filter>mca\pml\cm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_comm.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_component.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_hdr.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_rdma.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_rdmafrag.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_recvfrag.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_recvreq.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pml\ob1\pml_ob1_sendreq.h">
+      <Filter>mca\pml\ob1</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\pubsub.h">
+      <Filter>mca\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\base\base.h">
+      <Filter>mca\pubsub\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\pubsub\base\static-components.h">
+      <Filter>mca\pubsub\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\pubsub\orte\pubsub_orte.h">
+      <Filter>mca\pubsub\orte</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\rcache\rcache.h">
+      <Filter>mca\rcache</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\rcache\base\base.h">
+      <Filter>mca\rcache\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\rcache\base\static-components.h">
+      <Filter>mca\rcache\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\topo.h">
+      <Filter>mca\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\base\base.h">
+      <Filter>mca\topo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi\mca\topo\base\static-components.h">
+      <Filter>mca\topo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mca\topo\unity\topo_unity.h">
+      <Filter>mca\topo\unity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mca\mtl\base">
+      <UniqueIdentifier>{B851AAF5-0A2E-4F9A-AAA5-DFC15480293D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rcache\base">
+      <UniqueIdentifier>{C8194D18-39C2-4110-ABC7-C3E5379C09E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\op\base">
+      <UniqueIdentifier>{7DB75125-F576-4996-BE1D-4AB2D51AD199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\crcp\base">
+      <UniqueIdentifier>{F5CF9B84-2795-464B-A2CA-FD303B714B2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpi\c\profile">
+      <UniqueIdentifier>{E6773C70-F533-4215-9370-AACBBBCBE2EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\common\sm">
+      <UniqueIdentifier>{2966DD22-2A74-4F67-99DC-6614B0454CF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\io\base">
+      <UniqueIdentifier>{FD91D262-77A3-4719-8582-D1CC6D7F6F43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpi\c">
+      <UniqueIdentifier>{4B0C9296-D890-4057-B86C-085288ED9DC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\dpm\base">
+      <UniqueIdentifier>{C56C2375-8B3F-4CD1-81C6-55D6BA2E6370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\dpm\orte">
+      <UniqueIdentifier>{0AE99552-D797-4A47-90CD-5BEB9BFD134B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\bml\base">
+      <UniqueIdentifier>{CBD0600D-6B41-4AC6-8EE8-BF9D1D79EA69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\bml\r2">
+      <UniqueIdentifier>{9728E936-1970-45CF-ACB3-0326167410C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\topo\base">
+      <UniqueIdentifier>{3BA060C5-6AA3-4C67-8EBC-9279378F5F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\topo\unity">
+      <UniqueIdentifier>{37F8A64F-4030-4C10-882C-CB5F7D41C3E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\pubsub\base">
+      <UniqueIdentifier>{A579B3E1-A4A2-4B15-BB86-35CD39299376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\pubsub\orte">
+      <UniqueIdentifier>{64198CDD-7244-4E3C-820C-5596733C2F19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\btl\base">
+      <UniqueIdentifier>{0232B40A-0842-418E-8C7E-09B419379B79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\btl\self">
+      <UniqueIdentifier>{3299BBE1-C247-40DF-8D12-D10BCF7C73BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\btl\sm">
+      <UniqueIdentifier>{C7E12EDF-5D2A-4B7D-88FF-D8560E9CC7B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\btl\tcp">
+      <UniqueIdentifier>{42ED1EB0-758C-4E70-8DFD-DF02688FE4B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\base">
+      <UniqueIdentifier>{D985E88E-450C-4EEF-859C-2BBFA8845390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\basic">
+      <UniqueIdentifier>{1EC8A351-57B9-4F79-8CA3-5F992F7D8EDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\hierarch">
+      <UniqueIdentifier>{E2A00FB4-8B7C-4CC5-B3C1-7B8D77E094F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\self">
+      <UniqueIdentifier>{5945013A-DA37-4463-898F-CD16AB4A4C3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\sm">
+      <UniqueIdentifier>{2A020C70-F35A-4CFD-9224-9F8B74C1155C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\sync">
+      <UniqueIdentifier>{FB97296C-8DA2-49C3-9530-AA23B98289AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\allocator\base">
+      <UniqueIdentifier>{51E50563-914E-4196-8D8A-ECD912FA0FFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\allocator\basic">
+      <UniqueIdentifier>{C434FA1D-DC3E-4B4B-AC6C-92EBFB15B4B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\allocator\bucket">
+      <UniqueIdentifier>{32831DD0-D6BF-4980-A1F8-9503AE48EAD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\mpool\base">
+      <UniqueIdentifier>{E85575FF-D843-4758-ADDF-C37527CB8186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\mpool\rdma">
+      <UniqueIdentifier>{8ACC4F20-D955-4866-9A81-64BFCFADD854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\mpool\sm">
+      <UniqueIdentifier>{A47B994D-0E33-4922-99F1-BAA4F8EA2527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\osc\base">
+      <UniqueIdentifier>{4E01477F-9B4B-4133-B926-9F627846EE30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\osc\pt2pt">
+      <UniqueIdentifier>{3B3455D6-C419-4ACC-BBE6-865F09E45282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\osc\rdma">
+      <UniqueIdentifier>{A66A74E5-9EC7-4C23-BEEC-828D5BDCE1D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\pml\base">
+      <UniqueIdentifier>{574272AD-48B7-4610-B870-7910D0C7713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\pml\cm">
+      <UniqueIdentifier>{5AC41798-8DB5-4639-8469-1FA41A2847A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\pml\ob1">
+      <UniqueIdentifier>{A7203FA2-5919-4BB4-A8AF-E04EE8558030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\allocator">
+      <UniqueIdentifier>{979B2881-1B15-455F-BFB7-FF48A10E2A64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\bml">
+      <UniqueIdentifier>{27C14521-46A7-41E7-B048-DC6B9F9F0DD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\btl">
+      <UniqueIdentifier>{5F786AC3-A195-48F1-A890-4171A7E64FED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll">
+      <UniqueIdentifier>{A38332EA-7FD3-48B7-8F3B-B7DB2E54B7D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\common">
+      <UniqueIdentifier>{39C61D9B-96F9-4FA6-8BF8-998B6D25177E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\crcp">
+      <UniqueIdentifier>{2FAD060F-9CB0-4E7A-AA66-CCDFC3328766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\dpm">
+      <UniqueIdentifier>{F95E8A87-AC75-4877-A674-4A48196AF914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\io">
+      <UniqueIdentifier>{C59D2528-54C9-4246-970A-1E364C81BC38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\mpool">
+      <UniqueIdentifier>{0E25E670-15CB-4D48-A047-F0609EA3D186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\mtl">
+      <UniqueIdentifier>{FB86055C-E944-4AEE-9241-AAD4C928855F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\op">
+      <UniqueIdentifier>{EF72BF79-CFED-4C65-AC0A-8D01AF40C79C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\osc">
+      <UniqueIdentifier>{E168DE0E-AC97-450E-91C9-E750895BF4B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\pml">
+      <UniqueIdentifier>{2E853B5B-48EE-4335-AC58-0AA53EE1C6F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\pubsub">
+      <UniqueIdentifier>{1911BF24-5F3C-418B-8B3A-9E943F1C2856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rcache">
+      <UniqueIdentifier>{8013820A-73A4-4741-8696-E5D8CAFF3CD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\topo">
+      <UniqueIdentifier>{90BAAA37-19E7-48E4-9604-05931E8E3438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{F1CAD7CF-77E8-48B4-89DD-80599E146424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class">
+      <UniqueIdentifier>{8B0243B1-679E-4515-81BA-4B3339448511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="communicator">
+      <UniqueIdentifier>{AB4F2D90-0836-40A4-A0E2-2D143BB95B82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="datatype">
+      <UniqueIdentifier>{8088E081-6D81-4113-B1FE-0C7E9158F486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="errhandler">
+      <UniqueIdentifier>{B225FA4D-FE19-49E2-996C-C2FB7260E12F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{2E16ACBD-E42F-4568-A75F-9F8F53C55862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="group">
+      <UniqueIdentifier>{C3C5BC1E-5E72-4BA2-9D09-537D0CBB4FE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{B4272700-0D35-483C-89CE-664CC70340AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="info">
+      <UniqueIdentifier>{A8EE5FBB-D6F9-4DE9-94D3-4191D38FE693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="op">
+      <UniqueIdentifier>{21AA9EC7-22B7-4450-9069-BD94C8D25FA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="peruse">
+      <UniqueIdentifier>{120B446F-160D-488C-96E4-A37514B2FB4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{39EFC133-D79C-49C1-8EA5-DF2CA7410EF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="request">
+      <UniqueIdentifier>{E8126A33-97CE-42A9-A1EA-135D6A491881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime">
+      <UniqueIdentifier>{2B90FBBB-B6A9-4D62-BEAF-348495D425F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{2C24AE4D-DB46-419D-9954-5DFD31D7F5AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpi">
+      <UniqueIdentifier>{1494C290-B66A-4336-9A9D-A4112AD0435C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca">
+      <UniqueIdentifier>{BCFDBDA8-B1E4-40CF-A0B2-4821DC68125E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2231 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:21 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\3.3.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\3.3.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\3.3.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.57
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/ProjectExt/ompi-examples/CMakeFiles/3.3.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:22 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\3.3.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\3.3.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\3.3.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "F:/ProjectExt/ompi-examples/CMakeFiles/3.3.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fe95a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:22 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_fe95a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fe95a.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fe95a.dir\Debug\cmTC_fe95a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fe95a.dir\Debug\cmTC_fe95a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe95a.dir\Debug\\" /Fd"cmTC_fe95a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe95a.dir\Debug\\" /Fd"cmTC_fe95a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_fe95a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_fe95a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_fe95a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_fe95a.dir\Debug\testCCompiler.obj
+  cmTC_fe95a.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_fe95a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_fe95a.dir\Debug\cmTC_fe95a.tlog\unsuccessfulbuild".
+  Touching "cmTC_fe95a.dir\Debug\cmTC_fe95a.tlog\cmTC_fe95a.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_fe95a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_738e0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:23 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_738e0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_738e0.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_738e0.dir\Debug\cmTC_738e0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_738e0.dir\Debug\cmTC_738e0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_738e0.dir\Debug\\" /Fd"cmTC_738e0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_738e0.dir\Debug\\" /Fd"cmTC_738e0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_738e0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_738e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_738e0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_738e0.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_738e0.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_738e0.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_738e0.dir\Debug\cmTC_738e0.tlog\unsuccessfulbuild".
+  Touching "cmTC_738e0.dir\Debug\cmTC_738e0.tlog\cmTC_738e0.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_738e0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b8e70.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:24 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_b8e70.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b8e70.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b8e70.dir\Debug\cmTC_b8e70.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b8e70.dir\Debug\cmTC_b8e70.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b8e70.dir\Debug\\" /Fd"cmTC_b8e70.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b8e70.dir\Debug\\" /Fd"cmTC_b8e70.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_b8e70.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_b8e70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_b8e70.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_b8e70.dir\Debug\testCXXCompiler.obj
+  cmTC_b8e70.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_b8e70.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b8e70.dir\Debug\cmTC_b8e70.tlog\unsuccessfulbuild".
+  Touching "cmTC_b8e70.dir\Debug\cmTC_b8e70.tlog\cmTC_b8e70.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_b8e70.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_623c6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:24 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_623c6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_623c6.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_623c6.dir\Debug\cmTC_623c6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_623c6.dir\Debug\cmTC_623c6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_623c6.dir\Debug\\" /Fd"cmTC_623c6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_623c6.dir\Debug\\" /Fd"cmTC_623c6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_623c6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_623c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_623c6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_623c6.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_623c6.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_623c6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_623c6.dir\Debug\cmTC_623c6.tlog\unsuccessfulbuild".
+  Touching "cmTC_623c6.dir\Debug\cmTC_623c6.tlog\cmTC_623c6.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_623c6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e8471.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:25 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e8471.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e8471.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e8471.dir\Debug\cmTC_e8471.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e8471.dir\Debug\cmTC_e8471.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8471.dir\Debug\\" /Fd"cmTC_e8471.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8471.dir\Debug\\" /Fd"cmTC_e8471.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e8471.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e8471.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e8471.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_e8471.dir\Debug\feature_tests.obj
+  cmTC_e8471.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e8471.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e8471.dir\Debug\cmTC_e8471.tlog\unsuccessfulbuild".
+  Touching "cmTC_e8471.dir\Debug\cmTC_e8471.tlog\cmTC_e8471.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e8471.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5d7d6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:26 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_5d7d6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5d7d6.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5d7d6.dir\Debug\cmTC_5d7d6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5d7d6.dir\Debug\cmTC_5d7d6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d7d6.dir\Debug\\" /Fd"cmTC_5d7d6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d7d6.dir\Debug\\" /Fd"cmTC_5d7d6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_5d7d6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_5d7d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_5d7d6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_5d7d6.dir\Debug\CheckIncludeFile.obj
+  cmTC_5d7d6.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_5d7d6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5d7d6.dir\Debug\cmTC_5d7d6.tlog\unsuccessfulbuild".
+  Touching "cmTC_5d7d6.dir\Debug\cmTC_5d7d6.tlog\cmTC_5d7d6.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_5d7d6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b7258.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:26 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_b7258.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b7258.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b7258.dir\Debug\cmTC_b7258.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b7258.dir\Debug\cmTC_b7258.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7258.dir\Debug\\" /Fd"cmTC_b7258.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7258.dir\Debug\\" /Fd"cmTC_b7258.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_b7258.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_b7258.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_b7258.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_b7258.dir\Debug\CheckIncludeFile.obj
+  cmTC_b7258.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_b7258.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b7258.dir\Debug\cmTC_b7258.tlog\unsuccessfulbuild".
+  Touching "cmTC_b7258.dir\Debug\cmTC_b7258.tlog\cmTC_b7258.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_b7258.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_58a89.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:27 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_58a89.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_58a89.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_58a89.dir\Debug\cmTC_58a89.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_58a89.dir\Debug\cmTC_58a89.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58a89.dir\Debug\\" /Fd"cmTC_58a89.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58a89.dir\Debug\\" /Fd"cmTC_58a89.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_58a89.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_58a89.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_58a89.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_58a89.dir\Debug\CheckIncludeFile.obj
+  cmTC_58a89.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_58a89.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_58a89.dir\Debug\cmTC_58a89.tlog\unsuccessfulbuild".
+  Touching "cmTC_58a89.dir\Debug\cmTC_58a89.tlog\cmTC_58a89.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_58a89.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of void * passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_619b4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:28 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_619b4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_619b4.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_619b4.dir\Debug\cmTC_619b4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_619b4.dir\Debug\cmTC_619b4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_619b4.dir\Debug\\" /Fd"cmTC_619b4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\VOID_P.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_619b4.dir\Debug\\" /Fd"cmTC_619b4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\VOID_P.c"
+  
+  VOID_P.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_619b4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_619b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_619b4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_619b4.dir\Debug\VOID_P.obj
+  cmTC_619b4.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_619b4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_619b4.dir\Debug\cmTC_619b4.tlog\unsuccessfulbuild".
+  Touching "cmTC_619b4.dir\Debug\cmTC_619b4.tlog\cmTC_619b4.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_619b4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_210b5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:50 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_210b5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_210b5.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_210b5.dir\Debug\cmTC_210b5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_210b5.dir\Debug\cmTC_210b5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_210b5.dir\Debug\\" /Fd"cmTC_210b5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_210b5.dir\Debug\\" /Fd"cmTC_210b5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_210b5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_210b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_210b5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_210b5.dir\Debug\CheckIncludeFile.obj
+  cmTC_210b5.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_210b5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_210b5.dir\Debug\cmTC_210b5.tlog\unsuccessfulbuild".
+  Touching "cmTC_210b5.dir\Debug\cmTC_210b5.tlog\cmTC_210b5.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_210b5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+Determining if the include file winsock2.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e8a3d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:51 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e8a3d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e8a3d.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e8a3d.dir\Debug\cmTC_e8a3d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e8a3d.dir\Debug\cmTC_e8a3d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8a3d.dir\Debug\\" /Fd"cmTC_e8a3d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8a3d.dir\Debug\\" /Fd"cmTC_e8a3d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e8a3d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e8a3d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e8a3d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_e8a3d.dir\Debug\CheckIncludeFile.obj
+  cmTC_e8a3d.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e8a3d.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e8a3d.dir\Debug\cmTC_e8a3d.tlog\unsuccessfulbuild".
+  Touching "cmTC_e8a3d.dir\Debug\cmTC_e8a3d.tlog\cmTC_e8a3d.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e8a3d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0b56c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:52 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0b56c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0b56c.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0b56c.dir\Debug\cmTC_0b56c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0b56c.dir\Debug\cmTC_0b56c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b56c.dir\Debug\\" /Fd"cmTC_0b56c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b56c.dir\Debug\\" /Fd"cmTC_0b56c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_0b56c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_0b56c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_0b56c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0b56c.dir\Debug\CheckIncludeFile.obj
+  cmTC_0b56c.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_0b56c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0b56c.dir\Debug\cmTC_0b56c.tlog\unsuccessfulbuild".
+  Touching "cmTC_0b56c.dir\Debug\cmTC_0b56c.tlog\cmTC_0b56c.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0b56c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0533f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:53 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0533f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0533f.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0533f.dir\Debug\cmTC_0533f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0533f.dir\Debug\cmTC_0533f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0533f.dir\Debug\\" /Fd"cmTC_0533f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0533f.dir\Debug\\" /Fd"cmTC_0533f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_0533f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_0533f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_0533f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0533f.dir\Debug\CheckIncludeFile.obj
+  cmTC_0533f.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_0533f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0533f.dir\Debug\cmTC_0533f.tlog\unsuccessfulbuild".
+  Touching "cmTC_0533f.dir\Debug\cmTC_0533f.tlog\cmTC_0533f.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0533f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9f2d4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:53 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_9f2d4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9f2d4.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9f2d4.dir\Debug\cmTC_9f2d4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9f2d4.dir\Debug\cmTC_9f2d4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f2d4.dir\Debug\\" /Fd"cmTC_9f2d4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f2d4.dir\Debug\\" /Fd"cmTC_9f2d4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_9f2d4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_9f2d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_9f2d4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_9f2d4.dir\Debug\CheckIncludeFile.obj
+  cmTC_9f2d4.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_9f2d4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9f2d4.dir\Debug\cmTC_9f2d4.tlog\unsuccessfulbuild".
+  Touching "cmTC_9f2d4.dir\Debug\cmTC_9f2d4.tlog\cmTC_9f2d4.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_9f2d4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_45918.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:54 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_45918.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_45918.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_45918.dir\Debug\cmTC_45918.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_45918.dir\Debug\cmTC_45918.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45918.dir\Debug\\" /Fd"cmTC_45918.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45918.dir\Debug\\" /Fd"cmTC_45918.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_45918.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_45918.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_45918.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_45918.dir\Debug\CheckIncludeFile.obj
+  cmTC_45918.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_45918.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_45918.dir\Debug\cmTC_45918.tlog\unsuccessfulbuild".
+  Touching "cmTC_45918.dir\Debug\cmTC_45918.tlog\cmTC_45918.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_45918.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a9ea1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:54 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9ea1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a9ea1.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a9ea1.dir\Debug\cmTC_a9ea1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a9ea1.dir\Debug\cmTC_a9ea1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9ea1.dir\Debug\\" /Fd"cmTC_a9ea1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9ea1.dir\Debug\\" /Fd"cmTC_a9ea1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_a9ea1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_a9ea1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_a9ea1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a9ea1.dir\Debug\CheckIncludeFile.obj
+  cmTC_a9ea1.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_a9ea1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a9ea1.dir\Debug\cmTC_a9ea1.tlog\unsuccessfulbuild".
+  Touching "cmTC_a9ea1.dir\Debug\cmTC_a9ea1.tlog\cmTC_a9ea1.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9ea1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_90e22.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:55 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_90e22.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_90e22.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_90e22.dir\Debug\cmTC_90e22.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_90e22.dir\Debug\cmTC_90e22.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90e22.dir\Debug\\" /Fd"cmTC_90e22.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90e22.dir\Debug\\" /Fd"cmTC_90e22.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_90e22.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_90e22.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_90e22.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_90e22.dir\Debug\CheckIncludeFile.obj
+  cmTC_90e22.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_90e22.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_90e22.dir\Debug\cmTC_90e22.tlog\unsuccessfulbuild".
+  Touching "cmTC_90e22.dir\Debug\cmTC_90e22.tlog\cmTC_90e22.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_90e22.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_49f47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:56 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_49f47.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_49f47.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_49f47.dir\Debug\cmTC_49f47.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_49f47.dir\Debug\cmTC_49f47.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49f47.dir\Debug\\" /Fd"cmTC_49f47.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49f47.dir\Debug\\" /Fd"cmTC_49f47.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_49f47.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_49f47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_49f47.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_49f47.dir\Debug\CheckIncludeFile.obj
+  cmTC_49f47.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_49f47.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_49f47.dir\Debug\cmTC_49f47.tlog\unsuccessfulbuild".
+  Touching "cmTC_49f47.dir\Debug\cmTC_49f47.tlog\cmTC_49f47.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_49f47.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c5101.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:56 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_c5101.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c5101.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c5101.dir\Debug\cmTC_c5101.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c5101.dir\Debug\cmTC_c5101.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5101.dir\Debug\\" /Fd"cmTC_c5101.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5101.dir\Debug\\" /Fd"cmTC_c5101.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_c5101.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_c5101.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_c5101.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_c5101.dir\Debug\CheckIncludeFile.obj
+  cmTC_c5101.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_c5101.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c5101.dir\Debug\cmTC_c5101.tlog\unsuccessfulbuild".
+  Touching "cmTC_c5101.dir\Debug\cmTC_c5101.tlog\cmTC_c5101.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_c5101.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_66ecf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:57 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_66ecf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_66ecf.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_66ecf.dir\Debug\cmTC_66ecf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_66ecf.dir\Debug\cmTC_66ecf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66ecf.dir\Debug\\" /Fd"cmTC_66ecf.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66ecf.dir\Debug\\" /Fd"cmTC_66ecf.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_66ecf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_66ecf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_66ecf.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_66ecf.dir\Debug\CheckIncludeFile.obj
+  cmTC_66ecf.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_66ecf.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_66ecf.dir\Debug\cmTC_66ecf.tlog\unsuccessfulbuild".
+  Touching "cmTC_66ecf.dir\Debug\cmTC_66ecf.tlog\cmTC_66ecf.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_66ecf.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_de227.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:58 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_de227.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_de227.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_de227.dir\Debug\cmTC_de227.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_de227.dir\Debug\cmTC_de227.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ceil /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de227.dir\Debug\\" /Fd"cmTC_de227.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ceil /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de227.dir\Debug\\" /Fd"cmTC_de227.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_de227.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_de227.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_de227.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_de227.dir\Debug\CheckFunctionExists.obj
+  cmTC_de227.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_de227.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_de227.dir\Debug\cmTC_de227.tlog\unsuccessfulbuild".
+  Touching "cmTC_de227.dir\Debug\cmTC_de227.tlog\cmTC_de227.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_de227.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the function execve exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ad2f2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:58 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_ad2f2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ad2f2.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ad2f2.dir\Debug\cmTC_ad2f2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ad2f2.dir\Debug\cmTC_ad2f2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=execve /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad2f2.dir\Debug\\" /Fd"cmTC_ad2f2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=execve /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad2f2.dir\Debug\\" /Fd"cmTC_ad2f2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_ad2f2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_ad2f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_ad2f2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ad2f2.dir\Debug\CheckFunctionExists.obj
+  cmTC_ad2f2.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_ad2f2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ad2f2.dir\Debug\cmTC_ad2f2.tlog\unsuccessfulbuild".
+  Touching "cmTC_ad2f2.dir\Debug\cmTC_ad2f2.tlog\cmTC_ad2f2.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_ad2f2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+
+Determining if the function isatty exists passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8c14c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:59 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_8c14c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8c14c.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8c14c.dir\Debug\cmTC_8c14c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8c14c.dir\Debug\cmTC_8c14c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isatty /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c14c.dir\Debug\\" /Fd"cmTC_8c14c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isatty /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c14c.dir\Debug\\" /Fd"cmTC_8c14c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_8c14c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_8c14c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_8c14c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_8c14c.dir\Debug\CheckFunctionExists.obj
+  cmTC_8c14c.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_8c14c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8c14c.dir\Debug\cmTC_8c14c.tlog\unsuccessfulbuild".
+  Touching "cmTC_8c14c.dir\Debug\cmTC_8c14c.tlog\cmTC_8c14c.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_8c14c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the AF_UNSPEC exist passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_553e1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:04 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_553e1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_553e1.dir\Debug\".
+  Creating directory "cmTC_553e1.dir\Debug\cmTC_553e1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_553e1.dir\Debug\cmTC_553e1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_553e1.dir\Debug\\" /Fd"cmTC_553e1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_553e1.dir\Debug\\" /Fd"cmTC_553e1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_553e1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_553e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_553e1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_553e1.dir\Debug\CheckSymbolExists.obj
+  cmTC_553e1.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_553e1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_553e1.dir\Debug\cmTC_553e1.tlog\unsuccessfulbuild".
+  Touching "cmTC_553e1.dir\Debug\cmTC_553e1.tlog\cmTC_553e1.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_553e1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+File F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <winsock2.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_UNSPEC
+  return ((int*)(&AF_UNSPEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_UNSPEC exist passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4edf3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:05 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_4edf3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4edf3.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4edf3.dir\Debug\cmTC_4edf3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4edf3.dir\Debug\cmTC_4edf3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4edf3.dir\Debug\\" /Fd"cmTC_4edf3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4edf3.dir\Debug\\" /Fd"cmTC_4edf3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_4edf3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_4edf3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_4edf3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_4edf3.dir\Debug\CheckSymbolExists.obj
+  cmTC_4edf3.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_4edf3.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4edf3.dir\Debug\cmTC_4edf3.tlog\unsuccessfulbuild".
+  Touching "cmTC_4edf3.dir\Debug\cmTC_4edf3.tlog\cmTC_4edf3.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_4edf3.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+File F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <winsock2.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_UNSPEC
+  return ((int*)(&PF_UNSPEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the AF_INET6 exist passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_adc5b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:06 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_adc5b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_adc5b.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_adc5b.dir\Debug\cmTC_adc5b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_adc5b.dir\Debug\cmTC_adc5b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adc5b.dir\Debug\\" /Fd"cmTC_adc5b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adc5b.dir\Debug\\" /Fd"cmTC_adc5b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_adc5b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_adc5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_adc5b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_adc5b.dir\Debug\CheckSymbolExists.obj
+  cmTC_adc5b.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_adc5b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_adc5b.dir\Debug\cmTC_adc5b.tlog\unsuccessfulbuild".
+  Touching "cmTC_adc5b.dir\Debug\cmTC_adc5b.tlog\cmTC_adc5b.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_adc5b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+File F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <winsock2.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_INET6
+  return ((int*)(&AF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_INET6 exist passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e903b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:07 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e903b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e903b.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e903b.dir\Debug\cmTC_e903b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e903b.dir\Debug\cmTC_e903b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e903b.dir\Debug\\" /Fd"cmTC_e903b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e903b.dir\Debug\\" /Fd"cmTC_e903b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e903b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e903b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e903b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_e903b.dir\Debug\CheckSymbolExists.obj
+  cmTC_e903b.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e903b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e903b.dir\Debug\cmTC_e903b.tlog\unsuccessfulbuild".
+  Touching "cmTC_e903b.dir\Debug\cmTC_e903b.tlog\cmTC_e903b.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e903b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+
+File F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <winsock2.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_INET6
+  return ((int*)(&PF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of char passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_66bf4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:07 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_66bf4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_66bf4.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_66bf4.dir\Debug\cmTC_66bf4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_66bf4.dir\Debug\cmTC_66bf4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66bf4.dir\Debug\\" /Fd"cmTC_66bf4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\CHAR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66bf4.dir\Debug\\" /Fd"cmTC_66bf4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\CHAR.c"
+  
+  CHAR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_66bf4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_66bf4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_66bf4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_66bf4.dir\Debug\CHAR.obj
+  cmTC_66bf4.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_66bf4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_66bf4.dir\Debug\cmTC_66bf4.tlog\unsuccessfulbuild".
+  Touching "cmTC_66bf4.dir\Debug\cmTC_66bf4.tlog\cmTC_66bf4.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_66bf4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of double passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3eff4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:09 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3eff4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3eff4.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3eff4.dir\Debug\cmTC_3eff4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3eff4.dir\Debug\cmTC_3eff4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3eff4.dir\Debug\\" /Fd"cmTC_3eff4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3eff4.dir\Debug\\" /Fd"cmTC_3eff4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE.c"
+  
+  DOUBLE.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3eff4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3eff4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3eff4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_3eff4.dir\Debug\DOUBLE.obj
+  cmTC_3eff4.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3eff4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3eff4.dir\Debug\cmTC_3eff4.tlog\unsuccessfulbuild".
+  Touching "cmTC_3eff4.dir\Debug\cmTC_3eff4.tlog\cmTC_3eff4.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3eff4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of float passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e4c32.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:11 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e4c32.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e4c32.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e4c32.dir\Debug\cmTC_e4c32.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e4c32.dir\Debug\cmTC_e4c32.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4c32.dir\Debug\\" /Fd"cmTC_e4c32.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4c32.dir\Debug\\" /Fd"cmTC_e4c32.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT.c"
+  
+  FLOAT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e4c32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e4c32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_e4c32.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_e4c32.dir\Debug\FLOAT.obj
+  cmTC_e4c32.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_e4c32.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e4c32.dir\Debug\cmTC_e4c32.tlog\unsuccessfulbuild".
+  Touching "cmTC_e4c32.dir\Debug\cmTC_e4c32.tlog\cmTC_e4c32.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_e4c32.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of int passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a5af0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:12 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a5af0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a5af0.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a5af0.dir\Debug\cmTC_a5af0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a5af0.dir\Debug\cmTC_a5af0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5af0.dir\Debug\\" /Fd"cmTC_a5af0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5af0.dir\Debug\\" /Fd"cmTC_a5af0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT.c"
+  
+  INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_a5af0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_a5af0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_a5af0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a5af0.dir\Debug\INT.obj
+  cmTC_a5af0.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_a5af0.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a5af0.dir\Debug\cmTC_a5af0.tlog\unsuccessfulbuild".
+  Touching "cmTC_a5af0.dir\Debug\cmTC_a5af0.tlog\cmTC_a5af0.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a5af0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of short passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4e642.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:16 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_4e642.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4e642.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4e642.dir\Debug\cmTC_4e642.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4e642.dir\Debug\cmTC_4e642.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e642.dir\Debug\\" /Fd"cmTC_4e642.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SHORT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e642.dir\Debug\\" /Fd"cmTC_4e642.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SHORT.c"
+  
+  SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_4e642.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_4e642.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_4e642.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_4e642.dir\Debug\SHORT.obj
+  cmTC_4e642.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_4e642.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4e642.dir\Debug\cmTC_4e642.tlog\unsuccessfulbuild".
+  Touching "cmTC_4e642.dir\Debug\cmTC_4e642.tlog\cmTC_4e642.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_4e642.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of long passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d1f4f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:17 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d1f4f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d1f4f.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d1f4f.dir\Debug\cmTC_d1f4f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d1f4f.dir\Debug\cmTC_d1f4f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1f4f.dir\Debug\\" /Fd"cmTC_d1f4f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1f4f.dir\Debug\\" /Fd"cmTC_d1f4f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG.c"
+  
+  LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_d1f4f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_d1f4f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_d1f4f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_d1f4f.dir\Debug\LONG.obj
+  cmTC_d1f4f.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_d1f4f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d1f4f.dir\Debug\cmTC_d1f4f.tlog\unsuccessfulbuild".
+  Touching "cmTC_d1f4f.dir\Debug\cmTC_d1f4f.tlog\cmTC_d1f4f.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d1f4f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of long double passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3d4ff.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:18 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3d4ff.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3d4ff.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3d4ff.dir\Debug\cmTC_3d4ff.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3d4ff.dir\Debug\cmTC_3d4ff.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d4ff.dir\Debug\\" /Fd"cmTC_3d4ff.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d4ff.dir\Debug\\" /Fd"cmTC_3d4ff.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE.c"
+  
+  LONG_DOUBLE.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3d4ff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3d4ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3d4ff.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_3d4ff.dir\Debug\LONG_DOUBLE.obj
+  cmTC_3d4ff.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3d4ff.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3d4ff.dir\Debug\cmTC_3d4ff.tlog\unsuccessfulbuild".
+  Touching "cmTC_3d4ff.dir\Debug\cmTC_3d4ff.tlog\cmTC_3d4ff.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3d4ff.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of long long passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9117f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:20 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_9117f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9117f.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9117f.dir\Debug\cmTC_9117f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9117f.dir\Debug\cmTC_9117f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9117f.dir\Debug\\" /Fd"cmTC_9117f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9117f.dir\Debug\\" /Fd"cmTC_9117f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_LONG.c"
+  
+  LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_9117f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_9117f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_9117f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_9117f.dir\Debug\LONG_LONG.obj
+  cmTC_9117f.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_9117f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9117f.dir\Debug\cmTC_9117f.tlog\unsuccessfulbuild".
+  Touching "cmTC_9117f.dir\Debug\cmTC_9117f.tlog\cmTC_9117f.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_9117f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2f301.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:21 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_2f301.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2f301.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2f301.dir\Debug\cmTC_2f301.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2f301.dir\Debug\cmTC_2f301.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f301.dir\Debug\\" /Fd"cmTC_2f301.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f301.dir\Debug\\" /Fd"cmTC_2f301.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c"
+  
+  UNSIGNED_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_2f301.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_2f301.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_2f301.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_2f301.dir\Debug\UNSIGNED_INT.obj
+  cmTC_2f301.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_2f301.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2f301.dir\Debug\cmTC_2f301.tlog\unsuccessfulbuild".
+  Touching "cmTC_2f301.dir\Debug\cmTC_2f301.tlog\cmTC_2f301.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_2f301.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4d3ac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:23 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_4d3ac.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4d3ac.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4d3ac.dir\Debug\cmTC_4d3ac.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4d3ac.dir\Debug\cmTC_4d3ac.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d3ac.dir\Debug\\" /Fd"cmTC_4d3ac.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d3ac.dir\Debug\\" /Fd"cmTC_4d3ac.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c"
+  
+  UNSIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_4d3ac.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_4d3ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_4d3ac.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_4d3ac.dir\Debug\UNSIGNED_SHORT.obj
+  cmTC_4d3ac.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_4d3ac.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4d3ac.dir\Debug\cmTC_4d3ac.tlog\unsuccessfulbuild".
+  Touching "cmTC_4d3ac.dir\Debug\cmTC_4d3ac.tlog\cmTC_4d3ac.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_4d3ac.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a2392.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:24 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a2392.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a2392.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a2392.dir\Debug\cmTC_a2392.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a2392.dir\Debug\cmTC_a2392.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2392.dir\Debug\\" /Fd"cmTC_a2392.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2392.dir\Debug\\" /Fd"cmTC_a2392.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_LONG.c"
+  
+  UNSIGNED_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_a2392.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_a2392.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_a2392.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a2392.dir\Debug\UNSIGNED_LONG_LONG.obj
+  cmTC_a2392.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_a2392.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a2392.dir\Debug\cmTC_a2392.tlog\unsuccessfulbuild".
+  Touching "cmTC_a2392.dir\Debug\cmTC_a2392.tlog\cmTC_a2392.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a2392.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Determining size of unsigned long double passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_65c1e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:25 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_65c1e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_65c1e.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_65c1e.dir\Debug\cmTC_65c1e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_65c1e.dir\Debug\cmTC_65c1e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65c1e.dir\Debug\\" /Fd"cmTC_65c1e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_DOUBLE.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65c1e.dir\Debug\\" /Fd"cmTC_65c1e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_DOUBLE.c"
+  
+  UNSIGNED_LONG_DOUBLE.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_65c1e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_65c1e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_65c1e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_65c1e.dir\Debug\UNSIGNED_LONG_DOUBLE.obj
+  cmTC_65c1e.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_65c1e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_65c1e.dir\Debug\cmTC_65c1e.tlog\unsuccessfulbuild".
+  Touching "cmTC_65c1e.dir\Debug\cmTC_65c1e.tlog\cmTC_65c1e.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_65c1e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Determining size of unsigned char passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6f6cc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:27 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_6f6cc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6f6cc.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6f6cc.dir\Debug\cmTC_6f6cc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6f6cc.dir\Debug\cmTC_6f6cc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f6cc.dir\Debug\\" /Fd"cmTC_6f6cc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_CHAR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f6cc.dir\Debug\\" /Fd"cmTC_6f6cc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UNSIGNED_CHAR.c"
+  
+  UNSIGNED_CHAR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_6f6cc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_6f6cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_6f6cc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_6f6cc.dir\Debug\UNSIGNED_CHAR.obj
+  cmTC_6f6cc.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_6f6cc.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6f6cc.dir\Debug\cmTC_6f6cc.tlog\unsuccessfulbuild".
+  Touching "cmTC_6f6cc.dir\Debug\cmTC_6f6cc.tlog\cmTC_6f6cc.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_6f6cc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+Determining size of size_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ceaa4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:30 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_ceaa4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ceaa4.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ceaa4.dir\Debug\cmTC_ceaa4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ceaa4.dir\Debug\cmTC_ceaa4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ceaa4.dir\Debug\\" /Fd"cmTC_ceaa4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SIZE_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ceaa4.dir\Debug\\" /Fd"cmTC_ceaa4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SIZE_T.c"
+  
+  SIZE_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_ceaa4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_ceaa4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_ceaa4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ceaa4.dir\Debug\SIZE_T.obj
+  cmTC_ceaa4.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_ceaa4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ceaa4.dir\Debug\cmTC_ceaa4.tlog\unsuccessfulbuild".
+  Touching "cmTC_ceaa4.dir\Debug\cmTC_ceaa4.tlog\cmTC_ceaa4.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_ceaa4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9776f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:32 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_9776f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9776f.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9776f.dir\Debug\cmTC_9776f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9776f.dir\Debug\cmTC_9776f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9776f.dir\Debug\\" /Fd"cmTC_9776f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PTRDIFF_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9776f.dir\Debug\\" /Fd"cmTC_9776f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PTRDIFF_T.c"
+  
+  PTRDIFF_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_9776f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_9776f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_9776f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_9776f.dir\Debug\PTRDIFF_T.obj
+  cmTC_9776f.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_9776f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9776f.dir\Debug\cmTC_9776f.tlog\unsuccessfulbuild".
+  Touching "cmTC_9776f.dir\Debug\cmTC_9776f.tlog\cmTC_9776f.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_9776f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1d5af.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:34 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_1d5af.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1d5af.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1d5af.dir\Debug\cmTC_1d5af.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1d5af.dir\Debug\cmTC_1d5af.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d5af.dir\Debug\\" /Fd"cmTC_1d5af.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT8_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d5af.dir\Debug\\" /Fd"cmTC_1d5af.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT8_T.c"
+  
+  INT8_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_1d5af.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_1d5af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_1d5af.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_1d5af.dir\Debug\INT8_T.obj
+  cmTC_1d5af.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_1d5af.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1d5af.dir\Debug\cmTC_1d5af.tlog\unsuccessfulbuild".
+  Touching "cmTC_1d5af.dir\Debug\cmTC_1d5af.tlog\cmTC_1d5af.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_1d5af.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_19dee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:35 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_19dee.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_19dee.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_19dee.dir\Debug\cmTC_19dee.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_19dee.dir\Debug\cmTC_19dee.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19dee.dir\Debug\\" /Fd"cmTC_19dee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT16_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19dee.dir\Debug\\" /Fd"cmTC_19dee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT16_T.c"
+  
+  INT16_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_19dee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_19dee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_19dee.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_19dee.dir\Debug\INT16_T.obj
+  cmTC_19dee.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_19dee.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_19dee.dir\Debug\cmTC_19dee.tlog\unsuccessfulbuild".
+  Touching "cmTC_19dee.dir\Debug\cmTC_19dee.tlog\cmTC_19dee.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_19dee.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_eab88.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:37 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_eab88.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_eab88.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_eab88.dir\Debug\cmTC_eab88.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_eab88.dir\Debug\cmTC_eab88.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eab88.dir\Debug\\" /Fd"cmTC_eab88.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT32_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eab88.dir\Debug\\" /Fd"cmTC_eab88.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT32_T.c"
+  
+  INT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_eab88.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_eab88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_eab88.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_eab88.dir\Debug\INT32_T.obj
+  cmTC_eab88.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_eab88.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_eab88.dir\Debug\cmTC_eab88.tlog\unsuccessfulbuild".
+  Touching "cmTC_eab88.dir\Debug\cmTC_eab88.tlog\cmTC_eab88.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_eab88.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_12b2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:38 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_12b2b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_12b2b.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_12b2b.dir\Debug\cmTC_12b2b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_12b2b.dir\Debug\cmTC_12b2b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12b2b.dir\Debug\\" /Fd"cmTC_12b2b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT64_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12b2b.dir\Debug\\" /Fd"cmTC_12b2b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT64_T.c"
+  
+  INT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_12b2b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_12b2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_12b2b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_12b2b.dir\Debug\INT64_T.obj
+  cmTC_12b2b.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_12b2b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_12b2b.dir\Debug\cmTC_12b2b.tlog\unsuccessfulbuild".
+  Touching "cmTC_12b2b.dir\Debug\cmTC_12b2b.tlog\cmTC_12b2b.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_12b2b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of intptr_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_06fbc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:40 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_06fbc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_06fbc.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_06fbc.dir\Debug\cmTC_06fbc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_06fbc.dir\Debug\cmTC_06fbc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06fbc.dir\Debug\\" /Fd"cmTC_06fbc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INTPTR_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06fbc.dir\Debug\\" /Fd"cmTC_06fbc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INTPTR_T.c"
+  
+  INTPTR_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_06fbc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_06fbc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_06fbc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_06fbc.dir\Debug\INTPTR_T.obj
+  cmTC_06fbc.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_06fbc.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_06fbc.dir\Debug\cmTC_06fbc.tlog\unsuccessfulbuild".
+  Touching "cmTC_06fbc.dir\Debug\cmTC_06fbc.tlog\cmTC_06fbc.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_06fbc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_16fbd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:42 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_16fbd.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_16fbd.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_16fbd.dir\Debug\cmTC_16fbd.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_16fbd.dir\Debug\cmTC_16fbd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16fbd.dir\Debug\\" /Fd"cmTC_16fbd.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT8_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16fbd.dir\Debug\\" /Fd"cmTC_16fbd.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT8_T.c"
+  
+  UINT8_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_16fbd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_16fbd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_16fbd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_16fbd.dir\Debug\UINT8_T.obj
+  cmTC_16fbd.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_16fbd.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_16fbd.dir\Debug\cmTC_16fbd.tlog\unsuccessfulbuild".
+  Touching "cmTC_16fbd.dir\Debug\cmTC_16fbd.tlog\cmTC_16fbd.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_16fbd.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5ed3b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:43 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_5ed3b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5ed3b.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5ed3b.dir\Debug\cmTC_5ed3b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5ed3b.dir\Debug\cmTC_5ed3b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ed3b.dir\Debug\\" /Fd"cmTC_5ed3b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT16_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ed3b.dir\Debug\\" /Fd"cmTC_5ed3b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT16_T.c"
+  
+  UINT16_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_5ed3b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_5ed3b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_5ed3b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_5ed3b.dir\Debug\UINT16_T.obj
+  cmTC_5ed3b.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_5ed3b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5ed3b.dir\Debug\cmTC_5ed3b.tlog\unsuccessfulbuild".
+  Touching "cmTC_5ed3b.dir\Debug\cmTC_5ed3b.tlog\cmTC_5ed3b.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_5ed3b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3e6ad.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:44 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3e6ad.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3e6ad.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3e6ad.dir\Debug\cmTC_3e6ad.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3e6ad.dir\Debug\cmTC_3e6ad.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e6ad.dir\Debug\\" /Fd"cmTC_3e6ad.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT32_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e6ad.dir\Debug\\" /Fd"cmTC_3e6ad.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT32_T.c"
+  
+  UINT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3e6ad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3e6ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3e6ad.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_3e6ad.dir\Debug\UINT32_T.obj
+  cmTC_3e6ad.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3e6ad.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3e6ad.dir\Debug\cmTC_3e6ad.tlog\unsuccessfulbuild".
+  Touching "cmTC_3e6ad.dir\Debug\cmTC_3e6ad.tlog\cmTC_3e6ad.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3e6ad.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_903eb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:46 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_903eb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_903eb.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_903eb.dir\Debug\cmTC_903eb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_903eb.dir\Debug\cmTC_903eb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_903eb.dir\Debug\\" /Fd"cmTC_903eb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT64_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_903eb.dir\Debug\\" /Fd"cmTC_903eb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT64_T.c"
+  
+  UINT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_903eb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_903eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_903eb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_903eb.dir\Debug\UINT64_T.obj
+  cmTC_903eb.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_903eb.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_903eb.dir\Debug\cmTC_903eb.tlog\unsuccessfulbuild".
+  Touching "cmTC_903eb.dir\Debug\cmTC_903eb.tlog\cmTC_903eb.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_903eb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6e9d2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:48 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_6e9d2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6e9d2.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6e9d2.dir\Debug\cmTC_6e9d2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6e9d2.dir\Debug\cmTC_6e9d2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e9d2.dir\Debug\\" /Fd"cmTC_6e9d2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINTPTR_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e9d2.dir\Debug\\" /Fd"cmTC_6e9d2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINTPTR_T.c"
+  
+  UINTPTR_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_6e9d2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_6e9d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_6e9d2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_6e9d2.dir\Debug\UINTPTR_T.obj
+  cmTC_6e9d2.vcxproj -> F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_6e9d2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6e9d2.dir\Debug\cmTC_6e9d2.tlog\unsuccessfulbuild".
+  Touching "cmTC_6e9d2.dir\Debug\cmTC_6e9d2.tlog\cmTC_6e9d2.lastbuildstate".
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_6e9d2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+

@@ -1,0 +1,3 @@
+[submodule "ompi-release"]
+	path = ompi-release
+	url = https://github.com/DmitrySigaev/ompi-release.git

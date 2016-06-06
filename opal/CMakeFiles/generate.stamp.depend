@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+F:/ProjectExt/ompi-examples/ompi-release/opal/CMakeLists.txt
+F:/ProjectExt/ompi-examples/ompi-release/opal/datatype/opal_datatype_pack.c
+F:/ProjectExt/ompi-examples/ompi-release/opal/datatype/opal_datatype_unpack.c
+F:/ProjectExt/ompi-examples/ompi-release/opal/event/CMakeLists.txt
+F:/ProjectExt/ompi-examples/ompi-release/opal/event/WIN32-Code/CMakeLists.txt
+F:/ProjectExt/ompi-examples/ompi-release/opal/event/compat/sys/CMakeLists.txt
+F:/ProjectExt/ompi-examples/ompi-release/contrib/platform/win32/CMakeModules/list_subdirs.cmake
+F:/ProjectExt/ompi-examples/ompi-release/contrib/platform/win32/CMakeModules/check_mca_subdirs.cmake
+F:/ProjectExt/ompi-examples/ompi-release/contrib/platform/win32/CMakeModules/list_subdirs.cmake
+F:/ProjectExt/ompi-examples/ompi-release/opal/mca/installdirs/config/install_dirs.h.in
+F:/ProjectExt/ompi-examples/ompi-release/opal/include/opal/version.h.in

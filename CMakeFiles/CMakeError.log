@@ -1,0 +1,976 @@
+Determining if the include file wdm.h exists failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_22755.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:52 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_22755.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_22755.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_22755.dir\Debug\cmTC_22755.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_22755.dir\Debug\cmTC_22755.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22755.dir\Debug\\" /Fd"cmTC_22755.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22755.dir\Debug\\" /Fd"cmTC_22755.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'wdm.h': No such file or directory [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_22755.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_22755.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_22755.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'wdm.h': No such file or directory [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_22755.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.30
+
+
+Determining if the function vsnprintf exists failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3c620.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:07:59 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3c620.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3c620.dir\Debug\cmTC_3c620.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3c620.dir\Debug\cmTC_3c620.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vsnprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c620.dir\Debug\\" /Fd"cmTC_3c620.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vsnprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c620.dir\Debug\\" /Fd"cmTC_3c620.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3c620.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3c620.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp/Debug/cmTC_3c620.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_3c620.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _vsnprintf referenced in function _main [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol _vsnprintf [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol __vsnprintf [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3c620.exe : fatal error LNK1120: 2 unresolved externals [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _vsnprintf referenced in function _main [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+  MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol _vsnprintf [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+  MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol __vsnprintf [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\cmTC_3c620.exe : fatal error LNK1120: 2 unresolved externals [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3c620.vcxproj]
+
+    0 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:00.41
+
+
+Determining size of wchar failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0d310.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:09 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0d310.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0d310.dir\Debug\cmTC_0d310.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0d310.dir\Debug\cmTC_0d310.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d310.dir\Debug\\" /Fd"cmTC_0d310.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d310.dir\Debug\\" /Fd"cmTC_0d310.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c"
+  
+  WCHAR.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(19): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(20): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(21): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(22): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(23): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(19): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(20): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(21): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(22): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\WCHAR.c(23): error C2065: 'wchar': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0d310.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.29
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/WCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(wchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of float _Complex failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3a050.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:29 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3a050.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3a050.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3a050.dir\Debug\cmTC_3a050.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3a050.dir\Debug\cmTC_3a050.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a050.dir\Debug\\" /Fd"cmTC_3a050.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT_COMPLEX.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a050.dir\Debug\\" /Fd"cmTC_3a050.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT_COMPLEX.c"
+  
+  FLOAT_COMPLEX.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT_COMPLEX.c(19): error C2146: syntax error: missing ')' before identifier '_Complex' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3a050.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT_COMPLEX.c(19): error C2059: syntax error: ')' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3a050.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3a050.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3a050.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT_COMPLEX.c(19): error C2146: syntax error: missing ')' before identifier '_Complex' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3a050.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\FLOAT_COMPLEX.c(19): error C2059: syntax error: ')' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_3a050.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.29
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/FLOAT_COMPLEX.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(float _Complex))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of double _Complex failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0f709.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:29 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0f709.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0f709.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0f709.dir\Debug\cmTC_0f709.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0f709.dir\Debug\cmTC_0f709.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f709.dir\Debug\\" /Fd"cmTC_0f709.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE_COMPLEX.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f709.dir\Debug\\" /Fd"cmTC_0f709.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE_COMPLEX.c"
+  
+  DOUBLE_COMPLEX.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE_COMPLEX.c(19): error C2146: syntax error: missing ')' before identifier '_Complex' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0f709.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE_COMPLEX.c(19): error C2059: syntax error: ')' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0f709.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0f709.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0f709.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE_COMPLEX.c(19): error C2146: syntax error: missing ')' before identifier '_Complex' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0f709.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\DOUBLE_COMPLEX.c(19): error C2059: syntax error: ')' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_0f709.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.29
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/DOUBLE_COMPLEX.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(double _Complex))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of long double _Complex failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a9611.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:29 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9611.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a9611.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a9611.dir\Debug\cmTC_a9611.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a9611.dir\Debug\cmTC_a9611.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9611.dir\Debug\\" /Fd"cmTC_a9611.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE_COMPLEX.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9611.dir\Debug\\" /Fd"cmTC_a9611.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE_COMPLEX.c"
+  
+  LONG_DOUBLE_COMPLEX.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE_COMPLEX.c(19): error C2146: syntax error: missing ')' before identifier '_Complex' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9611.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE_COMPLEX.c(19): error C2059: syntax error: ')' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9611.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9611.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9611.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE_COMPLEX.c(19): error C2146: syntax error: missing ')' before identifier '_Complex' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9611.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\LONG_DOUBLE_COMPLEX.c(19): error C2059: syntax error: ')' [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a9611.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.30
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/LONG_DOUBLE_COMPLEX.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(long double _Complex))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a1d89.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:31 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a1d89.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a1d89.dir\Debug\cmTC_a1d89.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a1d89.dir\Debug\cmTC_a1d89.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1d89.dir\Debug\\" /Fd"cmTC_a1d89.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1d89.dir\Debug\\" /Fd"cmTC_a1d89.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c"
+  
+  SSIZE_T.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(19): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(20): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(21): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(22): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(23): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(19): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(20): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(21): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(22): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\SSIZE_T.c(23): error C2065: 'ssize_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a1d89.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.31
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/SSIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of pid_t failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d35f4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:32 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d35f4.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d35f4.dir\Debug\cmTC_d35f4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d35f4.dir\Debug\cmTC_d35f4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d35f4.dir\Debug\\" /Fd"cmTC_d35f4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d35f4.dir\Debug\\" /Fd"cmTC_d35f4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c"
+  
+  PID_T.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(19): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(20): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(21): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(22): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(23): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(19): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(20): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(21): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(22): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\PID_T.c(23): error C2065: 'pid_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_d35f4.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.30
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/PID_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(pid_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of mode_t failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_72e6a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:34 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_72e6a.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_72e6a.dir\Debug\cmTC_72e6a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_72e6a.dir\Debug\cmTC_72e6a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72e6a.dir\Debug\\" /Fd"cmTC_72e6a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72e6a.dir\Debug\\" /Fd"cmTC_72e6a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c"
+  
+  MODE_T.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(19): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(20): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(21): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(22): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(23): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(19): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(20): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(21): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(22): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\MODE_T.c(23): error C2065: 'mode_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_72e6a.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.30
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/MODE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(mode_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int128_t failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a0f61.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:40 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a0f61.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a0f61.dir\Debug\cmTC_a0f61.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a0f61.dir\Debug\cmTC_a0f61.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0f61.dir\Debug\\" /Fd"cmTC_a0f61.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0f61.dir\Debug\\" /Fd"cmTC_a0f61.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c"
+  
+  INT128_T.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(19): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(20): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(21): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(22): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(23): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(19): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(20): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(21): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(22): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\INT128_T.c(23): error C2065: 'int128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_a0f61.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.29
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/INT128_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int128_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint128_t failed with the following output:
+Change Dir: F:/ProjectExt/ompi-examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_37170.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24728.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/6/2016 5:08:47 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_37170.dir\Debug\".
+  Creating directory "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_37170.dir\Debug\cmTC_37170.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_37170.dir\Debug\cmTC_37170.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37170.dir\Debug\\" /Fd"cmTC_37170.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37170.dir\Debug\\" /Fd"cmTC_37170.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c"
+  
+  UINT128_T.c
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(19): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(20): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(21): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(22): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(23): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+Done Building Project "F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(19): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(20): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(21): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(22): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+  F:\ProjectExt\ompi-examples\CMakeFiles\CheckTypeSize\UINT128_T.c(23): error C2065: 'uint128_t': undeclared identifier [F:\ProjectExt\ompi-examples\CMakeFiles\CMakeTmp\cmTC_37170.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.30
+
+F:/ProjectExt/ompi-examples/CMakeFiles/CheckTypeSize/UINT128_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint128_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+
+Microsoft Visual Studio 2015 Version 14.0.24720.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+The system can not find the file specified.
+The operation could not be completed 
+
+Use:
+devenv  [solutionfile | projectfile | anyfile.ext]  [switches]
+
+The first argument for devenv is usually a solution file or project file.
+You can also use any other file as the first argument if you want to have the
+file open automatically in an editor. When you enter a project file, the IDE
+looks for an .sln file with the same base name as the project file in the
+parent directory for the project file. If no such .sln file exists, then the
+IDE looks for a single .sln file that references the project. If no such single
+.sln file exists, then the IDE creates an unsaved solution with a default .sln
+file name that has the same base name as the project file.
+
+Command line builds:
+devenv solutionfile.sln /build [ solutionconfig ] [ /project projectnameorfile [ /projectconfig name ] ]
+Available command line switches:
+
+/Build		Builds the solution or project with the specified solution
+		configuration. For example "Debug". If multiple platforms
+		are possible, the configuration name must be enclosed in quotes
+		and contain platform name. For example: "Debug|Win32".
+/Clean		Deletes build outputs.
+/Command	Starts the IDE and executes the command.
+/Deploy		Builds and then deploys the specified build configuration.
+/Edit		Opens the specified files in a running instance of this
+		application. If there are no running instances, it will
+		start a new instance with a simplified window layout.
+/LCID		Sets the default language in the IDE for the UI.
+/Log		Logs IDE activity to the specified file for troubleshooting.
+/NoVSIP		Disables the VSIP developer's license key for VSIP testing.
+/Out		Appends the build log to a specified file.
+/Project	Specifies the project to build, clean, or deploy.
+		Must be used with /Build, /Rebuild, /Clean, or /Deploy.
+/ProjectConfig	Overrides the project configuration specified in the solution
+		configuration. For example "Debug". If multiple platforms are
+		possible, the configuration name must be enclosed in quotes
+		and contain platform name. For example: "Debug|Win32".
+		Must be used with /Project.
+/Rebuild	Cleans and then builds the solution or project with the
+		specified configuration.
+/ResetSettings	Restores the IDE's default settings, optionally resets to
+		the specified VSSettings file.
+/ResetSkipPkgs	Clears all SkipLoading tags added to VSPackages.
+/Run		Compiles and runs the specified solution.
+/RunExit	Compiles and runs the specified solution then closes the IDE.
+/SafeMode	Launches the IDE in safe mode loading minimal windows.
+/Upgrade	Upgrades the project or the solution and all projects in it.
+		A backup of these files will be created as appropriate.  Please
+		see Help on 'Visual Studio Conversion Wizard' for more
+		information on the backup process.
+
+Product-specific switches:
+
+
+/componentsDiff Compares two component folders. Requires three arguments:
+                OptionalTfsServerCollectionUri SourceVersionedServerFolderPath 
+                TargetVersionedServerFolderPath
+                If OptionalTfsServerCollectionUri is not provided, then an 
+                attempt is made to use the current TFS project collection.
+
+/debugexe	Open the specified executable to be debugged. The remainder of 
+		the command line is passed to this executable as its arguments.
+/diff		Compares two files.  Takes four parameters:
+		SourceFile, TargetFile, SourceDisplayName(optional),
+		TargetDisplayName(optional)
+/openProjects /scc:git  Opens committed project from git.
+                Arguments:
+                /repositoryUrl (/repo):<RequiredRepositoryUrl>
+                /commitId (/id):<RequiredCommitId>
+                /project:<RequiredProjectItemPath>
+                /solution (/sln):<OptionalSolutionItemPath>
+                /displayId:<OptionalCommitDisplayId>
+                /timestamp:<OptionalCommitTimestamp>
+                /comment:<OptionalCommitComment>
+                /author:<OptionalCommitAuthor>
+
+/openProjects /scc:tfs  Opens versioned project from tfs.
+                Arguments:
+                /collection (/col):<OptionalTfsServerCollectionUri>
+                /version:<RequiredTfsVersionSpec>
+                /project:<RequiredProjectServerItemPath>
+                /solution (/sln):<OptionalSolutionServerItemPath>
+                If OptionalTfsServerCollectionUri is not provided, then an 
+                attempt is made to use the current TFS project collection.
+/sqldbaction    Start SQL Server Data Tools and perform the action specified in the argument string. 
+/TfsLink	Opens Team Explorer and launches a viewer for the 
+		provided artifact URI if one is registered.
+/useenv		Use PATH, INCLUDE, LIBPATH, and LIB environment variables
+		instead of IDE paths for VC++ builds.
+
+To attach the debugger from the command line, use:
+	VsJITDebugger.exe -p <pid>
+
+

@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\orted\orted_comm.c">
+      <Filter>orted</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\orted\orted_main.c">
+      <Filter>orted</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_compare_fns.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_copy_fns.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_packing_fns.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_print_fns.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_release_fns.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_size_fns.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_unpacking_fns.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_cr.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_data_server.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_finalize.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_globals.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_init.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_locks.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_mca_params.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_wait.c">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\threads\thread.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\comm\comm.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\context_fns.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\dash_host\dash_host.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\error_strings.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\hnp_contact.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\hostfile\hostfile.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\name_fns.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\nidmap.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\parse_options.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\pre_condition_transports.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\proc_info.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\regex.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\session_dir.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\show_help.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\orte\util\hostfile\hostfile_lex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\base\errmgr_base_close.c">
+      <Filter>mca\errmgr\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\base\errmgr_base_fns.c">
+      <Filter>mca\errmgr\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\base\errmgr_base_open.c">
+      <Filter>mca\errmgr\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\base\errmgr_base_select.c">
+      <Filter>mca\errmgr\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\default\errmgr_default.c">
+      <Filter>mca\errmgr\default</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\default\errmgr_default_component.c">
+      <Filter>mca\errmgr\default</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_close.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_get.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_open.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_put.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_select.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_std_app.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_std_orted.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_std_prolog.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\ess_base_std_tool.c">
+      <Filter>mca\ess\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\env\ess_env_component.c">
+      <Filter>mca\ess\env</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\env\ess_env_module.c">
+      <Filter>mca\ess\env</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\hnp\ess_hnp_component.c">
+      <Filter>mca\ess\hnp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\hnp\ess_hnp_module.c">
+      <Filter>mca\ess\hnp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\singleton\ess_singleton_component.c">
+      <Filter>mca\ess\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\singleton\ess_singleton_module.c">
+      <Filter>mca\ess\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\slave\ess_slave_component.c">
+      <Filter>mca\ess\slave</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\slave\ess_slave_module.c">
+      <Filter>mca\ess\slave</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\tool\ess_tool_component.c">
+      <Filter>mca\ess\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\tool\ess_tool_module.c">
+      <Filter>mca\ess\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\filem\base\filem_base_close.c">
+      <Filter>mca\filem\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\filem\base\filem_base_fns.c">
+      <Filter>mca\filem\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\filem\base\filem_base_open.c">
+      <Filter>mca\filem\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\filem\base\filem_base_receive.c">
+      <Filter>mca\filem\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\filem\base\filem_base_select.c">
+      <Filter>mca\filem\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\base\grpcomm_base_allgather.c">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\base\grpcomm_base_close.c">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\base\grpcomm_base_coll.c">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\base\grpcomm_base_modex.c">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\base\grpcomm_base_open.c">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\base\grpcomm_base_select.c">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\basic\grpcomm_basic_component.c">
+      <Filter>mca\grpcomm\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\basic\grpcomm_basic_module.c">
+      <Filter>mca\grpcomm\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\base\iof_base_close.c">
+      <Filter>mca\iof\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\base\iof_base_open.c">
+      <Filter>mca\iof\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\base\iof_base_output.c">
+      <Filter>mca\iof\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\base\iof_base_select.c">
+      <Filter>mca\iof\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\base\iof_base_setup.c">
+      <Filter>mca\iof\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\hnp\iof_hnp.c">
+      <Filter>mca\iof\hnp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\hnp\iof_hnp_component.c">
+      <Filter>mca\iof\hnp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\hnp\iof_hnp_read.c">
+      <Filter>mca\iof\hnp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\hnp\iof_hnp_receive.c">
+      <Filter>mca\iof\hnp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\hnp\iof_hnp_send.c">
+      <Filter>mca\iof\hnp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\orted\iof_orted.c">
+      <Filter>mca\iof\orted</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\orted\iof_orted_component.c">
+      <Filter>mca\iof\orted</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\orted\iof_orted_read.c">
+      <Filter>mca\iof\orted</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\orted\iof_orted_receive.c">
+      <Filter>mca\iof\orted</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\tool\iof_tool.c">
+      <Filter>mca\iof\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\tool\iof_tool_component.c">
+      <Filter>mca\iof\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\tool\iof_tool_receive.c">
+      <Filter>mca\iof\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\notifier\base\notifier_base_close.c">
+      <Filter>mca\notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\notifier\base\notifier_base_open.c">
+      <Filter>mca\notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\notifier\base\notifier_base_select.c">
+      <Filter>mca\notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\base\odls_base_close.c">
+      <Filter>mca\odls\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\base\odls_base_default_fns.c">
+      <Filter>mca\odls\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\base\odls_base_open.c">
+      <Filter>mca\odls\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\base\odls_base_select.c">
+      <Filter>mca\odls\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\base\odls_base_state.c">
+      <Filter>mca\odls\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\process\odls_process_component.c">
+      <Filter>mca\odls\process</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\process\odls_process_module.c">
+      <Filter>mca\odls\process</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\base\oob_base_close.c">
+      <Filter>mca\oob\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\base\oob_base_init.c">
+      <Filter>mca\oob\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\base\oob_base_open.c">
+      <Filter>mca\oob\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp.c">
+      <Filter>mca\oob\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_addr.c">
+      <Filter>mca\oob\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_msg.c">
+      <Filter>mca\oob\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_peer.c">
+      <Filter>mca\oob\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_ping.c">
+      <Filter>mca\oob\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_recv.c">
+      <Filter>mca\oob\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_send.c">
+      <Filter>mca\oob\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_close.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_heartbeat.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_jobid.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_launch_support.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_open.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_orted_cmds.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_proxy.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_receive.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_base_select.c">
+      <Filter>mca\plm\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\process\plm_process_component.c">
+      <Filter>mca\plm\process</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\process\plm_process_module.c">
+      <Filter>mca\plm\process</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\base\ras_base_allocate.c">
+      <Filter>mca\ras\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\base\ras_base_close.c">
+      <Filter>mca\ras\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\base\ras_base_node.c">
+      <Filter>mca\ras\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\base\ras_base_open.c">
+      <Filter>mca\ras\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\base\ras_base_select.c">
+      <Filter>mca\ras\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_base_close.c">
+      <Filter>mca\rmaps\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_base_common_mappers.c">
+      <Filter>mca\rmaps\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_base_get_job_map.c">
+      <Filter>mca\rmaps\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_base_map_job.c">
+      <Filter>mca\rmaps\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_base_open.c">
+      <Filter>mca\rmaps\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_base_select.c">
+      <Filter>mca\rmaps\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_base_support_fns.c">
+      <Filter>mca\rmaps\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\round_robin\rmaps_rr.c">
+      <Filter>mca\rmaps\round_robin</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\round_robin\rmaps_rr_component.c">
+      <Filter>mca\rmaps\round_robin</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\seq\rmaps_seq.c">
+      <Filter>mca\rmaps\seq</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\seq\rmaps_seq_component.c">
+      <Filter>mca\rmaps\seq</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\topo\rmaps_topo.c">
+      <Filter>mca\rmaps\topo</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\topo\rmaps_topo_component.c">
+      <Filter>mca\rmaps\topo</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\base\rml_base_components.c">
+      <Filter>mca\rml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\base\rml_base_contact.c">
+      <Filter>mca\rml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\base\rml_base_null_fns.c">
+      <Filter>mca\rml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\base\rml_base_receive.c">
+      <Filter>mca\rml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\ftrm\rml_ftrm_component.c">
+      <Filter>mca\rml\ftrm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\ftrm\rml_ftrm_module.c">
+      <Filter>mca\rml\ftrm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\oob\rml_oob_component.c">
+      <Filter>mca\rml\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\oob\rml_oob_contact.c">
+      <Filter>mca\rml\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\oob\rml_oob_exception.c">
+      <Filter>mca\rml\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\oob\rml_oob_ping.c">
+      <Filter>mca\rml\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\oob\rml_oob_recv.c">
+      <Filter>mca\rml\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\oob\rml_oob_send.c">
+      <Filter>mca\rml\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\base\routed_base_components.c">
+      <Filter>mca\routed\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\base\routed_base_receive.c">
+      <Filter>mca\routed\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\base\routed_base_register_sync.c">
+      <Filter>mca\routed\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\binomial\routed_binomial.c">
+      <Filter>mca\routed\binomial</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\binomial\routed_binomial_component.c">
+      <Filter>mca\routed\binomial</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\linear\routed_linear.c">
+      <Filter>mca\routed\linear</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\linear\routed_linear_component.c">
+      <Filter>mca\routed\linear</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\snapc\base\snapc_base_close.c">
+      <Filter>mca\snapc\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\snapc\base\snapc_base_fns.c">
+      <Filter>mca\snapc\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\snapc\base\snapc_base_open.c">
+      <Filter>mca\snapc\base</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\snapc\base\snapc_base_select.c">
+      <Filter>mca\snapc\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\include\orte\constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\include\orte\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\orted\orted.h">
+      <Filter>orted</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\data_type_support\orte_dt_support.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_cr.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_data_server.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_globals.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_locks.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\orte_wait.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\runtime.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\runtime\runtime_internals.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\threads\condition.h">
+      <Filter>threads</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\threads\mutex.h">
+      <Filter>threads</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\threads\threads.h">
+      <Filter>threads</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\comm\comm.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\context_fns.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\dash_host\dash_host.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\hnp_contact.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\hostfile\hostfile.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\hostfile\hostfile_lex.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\name_fns.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\nidmap.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\parse_options.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\pre_condition_transports.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\proc_info.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\regex.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\session_dir.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\util\show_help.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\errmgr.h">
+      <Filter>mca\errmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\base\base.h">
+      <Filter>mca\errmgr\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\base\errmgr_private.h">
+      <Filter>mca\errmgr\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\errmgr\base\static-components.h">
+      <Filter>mca\errmgr\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\errmgr\default\errmgr_default.h">
+      <Filter>mca\errmgr\default</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\ess.h">
+      <Filter>mca\ess</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\base\base.h">
+      <Filter>mca\ess\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\ess\base\static-components.h">
+      <Filter>mca\ess\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\env\ess_env.h">
+      <Filter>mca\ess\env</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\hnp\ess_hnp.h">
+      <Filter>mca\ess\hnp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\singleton\ess_singleton.h">
+      <Filter>mca\ess\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\slave\ess_slave.h">
+      <Filter>mca\ess\slave</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ess\tool\ess_tool.h">
+      <Filter>mca\ess\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\filem\filem.h">
+      <Filter>mca\filem</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\filem\base\base.h">
+      <Filter>mca\filem\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\filem\base\static-components.h">
+      <Filter>mca\filem\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\grpcomm.h">
+      <Filter>mca\grpcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\grpcomm_types.h">
+      <Filter>mca\grpcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\base\base.h">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\grpcomm\base\static-components.h">
+      <Filter>mca\grpcomm\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\grpcomm\basic\grpcomm_basic.h">
+      <Filter>mca\grpcomm\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\iof.h">
+      <Filter>mca\iof</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\iof_types.h">
+      <Filter>mca\iof</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\base\base.h">
+      <Filter>mca\iof\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\base\iof_base_setup.h">
+      <Filter>mca\iof\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\iof\base\static-components.h">
+      <Filter>mca\iof\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\hnp\iof_hnp.h">
+      <Filter>mca\iof\hnp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\orted\iof_orted.h">
+      <Filter>mca\iof\orted</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\iof\tool\iof_tool.h">
+      <Filter>mca\iof\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\notifier\notifier.h">
+      <Filter>mca\notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\notifier\base\base.h">
+      <Filter>mca\notifier\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\notifier\base\static-components.h">
+      <Filter>mca\notifier\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\odls.h">
+      <Filter>mca\odls</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\odls_types.h">
+      <Filter>mca\odls</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\base\base.h">
+      <Filter>mca\odls\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\base\odls_private.h">
+      <Filter>mca\odls\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\odls\base\static-components.h">
+      <Filter>mca\odls\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\odls\process\odls_process.h">
+      <Filter>mca\odls\process</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\oob.h">
+      <Filter>mca\oob</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\base\base.h">
+      <Filter>mca\oob\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\oob\base\static-components.h">
+      <Filter>mca\oob\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp.h">
+      <Filter>mca\oob\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_addr.h">
+      <Filter>mca\oob\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_hdr.h">
+      <Filter>mca\oob\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_msg.h">
+      <Filter>mca\oob\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\oob\tcp\oob_tcp_peer.h">
+      <Filter>mca\oob\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\plm.h">
+      <Filter>mca\plm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\plm_types.h">
+      <Filter>mca\plm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\base.h">
+      <Filter>mca\plm\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\base\plm_private.h">
+      <Filter>mca\plm\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\plm\base\static-components.h">
+      <Filter>mca\plm\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\plm\process\plm_process.h">
+      <Filter>mca\plm\process</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\ras.h">
+      <Filter>mca\ras</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\ras_types.h">
+      <Filter>mca\ras</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\base\base.h">
+      <Filter>mca\ras\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\ras\base\ras_private.h">
+      <Filter>mca\ras\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\ras\base\static-components.h">
+      <Filter>mca\ras\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\rmaps.h">
+      <Filter>mca\rmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\rmaps_types.h">
+      <Filter>mca\rmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\base.h">
+      <Filter>mca\rmaps\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\base\rmaps_private.h">
+      <Filter>mca\rmaps\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\rmaps\base\static-components.h">
+      <Filter>mca\rmaps\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\round_robin\rmaps_rr.h">
+      <Filter>mca\rmaps\round_robin</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\seq\rmaps_seq.h">
+      <Filter>mca\rmaps\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rmaps\topo\rmaps_topo.h">
+      <Filter>mca\rmaps\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\rml.h">
+      <Filter>mca\rml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\rml_types.h">
+      <Filter>mca\rml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\base\base.h">
+      <Filter>mca\rml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\base\rml_contact.h">
+      <Filter>mca\rml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\rml\base\static-components.h">
+      <Filter>mca\rml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\ftrm\rml_ftrm.h">
+      <Filter>mca\rml\ftrm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\rml\oob\rml_oob.h">
+      <Filter>mca\rml\oob</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\routed.h">
+      <Filter>mca\routed</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\routed_types.h">
+      <Filter>mca\routed</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\base\base.h">
+      <Filter>mca\routed\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\routed\base\static-components.h">
+      <Filter>mca\routed\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\binomial\routed_binomial.h">
+      <Filter>mca\routed\binomial</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\routed\linear\routed_linear.h">
+      <Filter>mca\routed\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\snapc\snapc.h">
+      <Filter>mca\snapc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\orte\mca\snapc\base\base.h">
+      <Filter>mca\snapc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\orte\mca\snapc\base\static-components.h">
+      <Filter>mca\snapc\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mca\notifier\base">
+      <UniqueIdentifier>{E560431D-53A4-49FF-94FE-93D010680FD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\filem\base">
+      <UniqueIdentifier>{025FE2ED-468A-413C-83E0-3B4F8A7F6567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ras\base">
+      <UniqueIdentifier>{E6E1C2F0-57EB-4ABC-AF31-C4B5C68C6802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\snapc\base">
+      <UniqueIdentifier>{215FB355-0906-4BED-A40F-0FDA594C4059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\odls\base">
+      <UniqueIdentifier>{CD8EA25E-928C-4A67-BE29-D26D324911D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\odls\process">
+      <UniqueIdentifier>{E429CDD4-86BF-4533-9D18-0DC90DCA2423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\oob\base">
+      <UniqueIdentifier>{45ABA2A6-E337-4273-A0B4-ED5B452E1D9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\oob\tcp">
+      <UniqueIdentifier>{ED1DDC28-013C-4234-A205-F653F183C906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\grpcomm\base">
+      <UniqueIdentifier>{013B7AC7-6124-46F6-B87D-A95EE474D677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\grpcomm\basic">
+      <UniqueIdentifier>{A6A8A560-6416-4541-A19C-4525EE676D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\plm\base">
+      <UniqueIdentifier>{B4C2A0F4-C355-4943-806B-1604D7290CC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\plm\process">
+      <UniqueIdentifier>{8E8892E6-FFFD-47C0-969E-D03E4A854AE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\errmgr\base">
+      <UniqueIdentifier>{36877E92-3D9C-40AF-840B-114CFB4B4898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\errmgr\default">
+      <UniqueIdentifier>{C52778AF-B5F9-4514-878D-BE3324D06123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\iof\base">
+      <UniqueIdentifier>{99AD8DB7-3CC2-4C2C-A363-765684C2435E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\iof\hnp">
+      <UniqueIdentifier>{45745088-EBC2-48FC-8DEB-A91EEE804C00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\iof\orted">
+      <UniqueIdentifier>{A039FD34-FBB0-45BE-BEC9-F00B40BADB52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\iof\tool">
+      <UniqueIdentifier>{E547EDBB-DA1B-4BF8-B506-92D98BD76D3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5918009E-21AE-44C3-B0C3-7F3BF78D9DDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{B4272700-0D35-483C-89CE-664CC70340AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="orted">
+      <UniqueIdentifier>{A4831C6A-8C33-4402-A858-EAB31ED0EA07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime">
+      <UniqueIdentifier>{2B90FBBB-B6A9-4D62-BEAF-348495D425F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threads">
+      <UniqueIdentifier>{E9B920DD-ADFE-4E3C-B89C-95E5E0E2CCFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{20CD3307-A2C7-4BD4-806E-718C4B166E56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca">
+      <UniqueIdentifier>{BCFDBDA8-B1E4-40CF-A0B2-4821DC68125E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\errmgr">
+      <UniqueIdentifier>{C764DBA2-3EAA-4FA6-9CF5-0FBB8B482B29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ess">
+      <UniqueIdentifier>{4CAC2390-5197-4E1D-B6AE-0E538B013CEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\filem">
+      <UniqueIdentifier>{1976E5C5-36CA-4858-ACAC-1EA618E8C66B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\grpcomm">
+      <UniqueIdentifier>{53F76535-7E4E-401A-8F22-BE1F32FD61EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\iof">
+      <UniqueIdentifier>{F9E33672-54F8-4714-91DC-456AA184794E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\notifier">
+      <UniqueIdentifier>{AE8DF371-4ED9-4DDB-8B92-F7274D41C6C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\odls">
+      <UniqueIdentifier>{6F7B7FFF-7D22-49E7-B24E-C201D1DD1D65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\oob">
+      <UniqueIdentifier>{58782CB6-92AD-4AA9-99B4-97AF23724B52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\plm">
+      <UniqueIdentifier>{0F0014A9-F39B-491D-81FF-86E07E8ED43B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ras">
+      <UniqueIdentifier>{FAF39362-97B4-40E4-B064-73A8A2648612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rmaps">
+      <UniqueIdentifier>{4397742B-5BC3-4D8D-BF37-F4BEF2F535CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rml">
+      <UniqueIdentifier>{8DBF6ABC-766B-49D2-B756-488085D48044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\routed">
+      <UniqueIdentifier>{4A0F4FD3-0F80-4B25-BED6-CE2E61D137A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\snapc">
+      <UniqueIdentifier>{E417DA2D-CD5C-4A5E-B304-81554A77AA61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rmaps\base">
+      <UniqueIdentifier>{2A17B969-FF2D-46CC-9CCB-4314BA63CAD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rmaps\round_robin">
+      <UniqueIdentifier>{40150F2E-05C8-45BF-9BC8-B4FA494AE820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rmaps\seq">
+      <UniqueIdentifier>{AF927C92-3FE4-41DA-88E1-35FB747D65F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rmaps\topo">
+      <UniqueIdentifier>{DED49163-86C0-4E5B-B33E-26560EB28FD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rml\base">
+      <UniqueIdentifier>{4FB48CF1-37CD-433F-B4FC-9099B68C94F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rml\ftrm">
+      <UniqueIdentifier>{34651F0E-577F-463F-A7B1-147A60E6F4BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\rml\oob">
+      <UniqueIdentifier>{22DD1C5E-C19D-48F3-A514-6D47B68E43BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\routed\base">
+      <UniqueIdentifier>{FC26E0E8-BB80-4354-9B25-38EFA9A0174C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\routed\binomial">
+      <UniqueIdentifier>{85B8804A-A435-4C16-BC9A-D0D4B59AD6C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\routed\linear">
+      <UniqueIdentifier>{D0DCDBB9-405C-4CDB-8890-2E66A4C1234A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ess\base">
+      <UniqueIdentifier>{F9B184CE-B0BF-4B65-9B52-1D08646BC22B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ess\env">
+      <UniqueIdentifier>{F40CCECB-D2BC-4A76-B3F6-4B719B54C4F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ess\hnp">
+      <UniqueIdentifier>{FA175B37-FB88-4583-9049-B570D9977D91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ess\singleton">
+      <UniqueIdentifier>{E02060AB-6150-4448-A7EC-4D6D95847814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ess\slave">
+      <UniqueIdentifier>{00C4D2AA-3C72-475C-808D-6C500F47AF25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\ess\tool">
+      <UniqueIdentifier>{13E1A632-EFD4-4085-90E7-D2EBE5F40DB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

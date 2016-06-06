@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\comm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\datatype.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\intercepts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\mpicxx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\comm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\comm_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\datatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\datatype_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\errhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\errhandler_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\file_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\functions_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\group_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\info_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\intercomm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\intercomm_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\intracomm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\intracomm_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\mpicxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\op_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\request_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\status_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\topology.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\topology_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\ompi\mpi\cxx\win_inln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5918009E-21AE-44C3-B0C3-7F3BF78D9DDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FD922ADF-F415-430A-A12E-33EFB728B11D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

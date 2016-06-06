@@ -1,0 +1,22 @@
+# There can be multiple blocks of configuration data, chosen by
+# compiler flags (using the compiler_args key to chose which block
+# should be activated.  This can be useful for multilib builds.  See the
+# multilib page at:
+#    https://svn.open-mpi.org/trac/ompi/wiki/compilerwrapper3264 
+# for more information.
+
+project=Open MPI
+project_short=OMPI
+version=1.6.6rc1
+language=C
+compiler_env=CC
+compiler_flags_env=CFLAGS
+compiler=CL_EXE-NOTFOUND
+extra_includes=
+preprocessor_flags=
+compiler_flags=/TC /DOMPI_IMPORTS /DOPAL_IMPORTS /DORTE_IMPORTS
+linker_flags=
+libs=libmpid.lib libopen-pald.lib libopen-rted.lib advapi32.lib Ws2_32.lib shlwapi.lib
+required_file=
+includedir=${includedir}
+libdir=${libdir}

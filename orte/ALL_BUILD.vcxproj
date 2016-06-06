@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6CD82F00-4123-4CAB-8E67-3423670B8A69}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/ProjectExt/ompi-examples/orte/libopen-rte.vcxproj">
+      <Project>379B77F1-AB71-4AC0-B706-F3518CD21913</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/ProjectExt/ompi-examples/orte/tools/orte-checkpoint/orte-checkpoint.vcxproj">
+      <Project>A531D3E4-EC4C-4EFC-B58D-69040322DA46</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/ProjectExt/ompi-examples/orte/tools/orte-clean/orte-clean.vcxproj">
+      <Project>1A1C8493-7436-42CA-B3BE-AB86A5C82716</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/ProjectExt/ompi-examples/orte/tools/orte-ps/orte-ps.vcxproj">
+      <Project>4709CC39-D5B6-41BA-AB04-BA4FA7D52213</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/ProjectExt/ompi-examples/orte/tools/orted/orted.vcxproj">
+      <Project>132E3CC8-CC1E-472A-8493-DF625CE2A8F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/ProjectExt/ompi-examples/orte/tools/orterun/orterun.vcxproj">
+      <Project>B22FD54B-30BC-4329-96D5-6B349126CAE0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\ProjectExt\ompi-examples\CMakeFiles\bf04d75ae7cc6352cc10285ca4d088db\INSTALL_force.rule">
+      <Filter>mpi</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mpi">
+      <UniqueIdentifier>{1494C290-B66A-4336-9A9D-A4112AD0435C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{958BC6AC-8EDB-433E-B594-9513710454DF}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libopen-pal</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\ProjectExt\ompi-examples\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libopen-pal.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libopen-pald</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\ProjectExt\ompi-examples\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libopen-pal.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libopen-pal</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\ProjectExt\ompi-examples\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libopen-pal.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libopen-pal</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\ProjectExt\ompi-examples\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libopen-pal.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libopen-pal</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR="Debug";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR=\"Debug\";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Ws2_32.lib;shlwapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ProjectExt/ompi-examples/Debug/libopen-pald.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ProjectExt/ompi-examples/Debug/libopen-pald.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR="Release";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR=\"Release\";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Ws2_32.lib;shlwapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ProjectExt/ompi-examples/Release/libopen-pal.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ProjectExt/ompi-examples/Release/libopen-pal.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR="MinSizeRel";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Ws2_32.lib;shlwapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ProjectExt/ompi-examples/MinSizeRel/libopen-pal.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ProjectExt/ompi-examples/MinSizeRel/libopen-pal.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;OPAL_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";libopen_pal_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ProjectExt\ompi-examples\ompi-release\contrib\platform\win32;F:\ProjectExt\ompi-examples\ompi-release;F:\ProjectExt\ompi-examples\ompi-release\opal;F:\ProjectExt\ompi-examples\ompi-release\opal\include;F:\ProjectExt\ompi-examples\ompi-release\ompi;F:\ProjectExt\ompi-examples\ompi-release\ompi\include;F:\ProjectExt\ompi-examples\ompi-release\orte;F:\ProjectExt\ompi-examples\ompi-release\orte\include;F:\ProjectExt\ompi-examples;F:\ProjectExt\ompi-examples\opal;F:\ProjectExt\ompi-examples\opal\include;F:\ProjectExt\ompi-examples\ompi;F:\ProjectExt\ompi-examples\ompi\include;F:\ProjectExt\ompi-examples\orte;F:\ProjectExt\ompi-examples\orte\include;F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat;F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Ws2_32.lib;shlwapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ProjectExt/ompi-examples/RelWithDebInfo/libopen-pal.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ProjectExt/ompi-examples/RelWithDebInfo/libopen-pal.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code\config.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code\tree.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat\sys\queue.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\compat\sys\_timeradd.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\event-internal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\event.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\evsignal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\evutil.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\log.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal_config_bottom.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal_stdint.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\align.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\constants.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\hash_string.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\opal_socket_errno.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\prefetch.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\types.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\sys\win32\atomic.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\include\opal\sys\win32\timer.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_atomic_lifo.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_bitmap.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_free_list.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_graph.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_hash_table.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_list.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_object.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_pointer_array.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_ring_buffer.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_value_array.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_convertor.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_convertor_internal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_checksum.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_copy.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_internal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_memcpy.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_pack.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_prototypes.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_unpack.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_internal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_types.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\memoryhooks\memory.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\memoryhooks\memory_internal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal_cr.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal_progress.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\condition.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\mutex.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\mutex_unix.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\mutex_windows.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\threads.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\tsd.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\arch.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\argv.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\basename.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\bit_ops.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\cmd_line.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\convert.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\crc.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\daemon_init.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\error.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\fd.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\few.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\if.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\keyval\keyval_lex.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\keyval_parse.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\malloc.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\net.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\numtostr.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\opal_environ.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\opal_getcwd.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\opal_pty.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\os_dirpath.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\os_path.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\output.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\path.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\printf.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\qsort.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\show_help.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\show_help_lex.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\stacktrace.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\strncpy.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\sys_limits.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\trace.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_inet.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_misc.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_process.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_time.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_uio.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_util.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_utsname.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\win_compat.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\backtrace\backtrace.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\backtrace\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\backtrace\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_component_repository.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_param.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_param_internal.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\carto.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\auto_detect\carto_auto_detect.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\base\carto_base_graph.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\carto\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\crs.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\crs\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\none\crs_none.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\hwloc\hwloc.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\hwloc\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\hwloc\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\installdirs\installdirs.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\installdirs\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\installdirs\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\maffinity.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\maffinity_types.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\maffinity\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\first_use\maffinity_first_use.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memchecker\memchecker.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memchecker\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\memchecker\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memcpy\memcpy.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memcpy\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memcpy\base\memcpy_base_default.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\memcpy\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memory\memory.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memory\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memory\base\empty.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\memory\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\paffinity\paffinity.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\paffinity\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\paffinity\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\pstat\pstat.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\pstat\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\pstat\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\shmem.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\shmem_types.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\shmem\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\windows\shmem_windows.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\sysinfo\sysinfo.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\sysinfo\sysinfo_types.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\sysinfo\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\sysinfo\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\timer.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\base\base.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\base\timer_base_null.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\opal\mca\timer\base\static-components.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\windows\timer_windows.h" />
+    <ClInclude Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\windows\timer_windows_component.h" />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\opal\datatype\opal_datatype_pack_checksum.c" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\opal\datatype\opal_datatype_unpack_checksum.c" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CHECKSUM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\WIN32-Code\win32.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\event.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\evutil.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\log.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\event\signal.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\asm\asm.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_atomic_lifo.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_bitmap.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_free_list.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_graph.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_hash_table.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_list.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_object.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_pointer_array.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_ring_buffer.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\class\opal_value_array.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_convertor.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_convertor_raw.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_copy_functions.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_copy_functions_heterogeneous.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_add.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_clone.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_copy.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_create.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_create_contiguous.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_destroy.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_dump.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_fake_stack.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_get_count.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_module.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_optimize.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_pack.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_position.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_resize.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\datatype\opal_datatype_unpack.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_compare.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_copy.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_dump.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_get.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_internal_functions.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_load_unload.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_lookup.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_open_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_pack.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_peek.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_print.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_register.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_release.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_set.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_set_buffer_type.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_size.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\dss\dss_unpack.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\memoryhooks\memory.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal_cr.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal_finalize.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal_init.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal_params.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\runtime\opal_progress.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\condition.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\mutex.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\thread.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\threads\tsd.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\arch.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\argv.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\basename.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\cmd_line.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\convert.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\crc.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\daemon_init.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\error.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\fd.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\few.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\if.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\keyval_parse.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\malloc.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\net.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\numtostr.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\opal_environ.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\opal_getcwd.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\opal_pty.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\os_dirpath.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\os_path.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\output.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\path.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\printf.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\qsort.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\show_help.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\stacktrace.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\strncpy.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\sys_limits.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\util\trace.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_inet.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_process.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_time.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_uio.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\win32\ompi_utsname.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\opal\util\keyval\keyval_lex.c" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\opal\util\show_help_lex.c" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">YY_NO_UNISTD_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\backtrace\base\backtrace_component.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\backtrace\none\backtrace_none.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\backtrace\none\backtrace_none_component.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_cmd_line.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_components_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_components_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_components_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_component_compare.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_component_find.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_component_repository.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_list.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_param.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\base\mca_base_parse_paramfile.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\auto_detect\carto_auto_detect_component.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\auto_detect\carto_auto_detect_module.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\base\carto_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\base\carto_base_graph.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\base\carto_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\base\carto_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\carto\base\carto_base_wrapers.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\base\crs_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\base\crs_base_fns.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\base\crs_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\base\crs_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\none\crs_none_component.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\crs\none\crs_none_module.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\hwloc\base\hwloc_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\hwloc\base\hwloc_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\hwloc\base\hwloc_base_util.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\installdirs\base\installdirs_base_components.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\installdirs\base\installdirs_base_expand.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\installdirs\config\opal_installdirs_config.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\installdirs\env\opal_installdirs_env.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\installdirs\windows\opal_installdirs_windows.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\base\maffinity_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\base\maffinity_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\base\maffinity_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\base\maffinity_base_wrappers.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\first_use\maffinity_first_use_component.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\maffinity\first_use\maffinity_first_use_module.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memchecker\base\memchecker_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memchecker\base\memchecker_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memchecker\base\memchecker_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memchecker\base\memchecker_base_wrappers.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memcpy\base\memcpy_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memcpy\base\memcpy_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memory\base\memory_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memory\base\memory_base_empty.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\memory\base\memory_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\paffinity\base\paffinity_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\paffinity\base\paffinity_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\paffinity\base\paffinity_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\paffinity\base\paffinity_base_service.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\paffinity\base\paffinity_base_wrappers.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\pstat\base\pstat_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\pstat\base\pstat_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\pstat\base\pstat_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\base\shmem_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\base\shmem_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\base\shmem_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\base\shmem_base_wrappers.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\windows\shmem_windows_component.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\shmem\windows\shmem_windows_module.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\sysinfo\base\sysinfo_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\sysinfo\base\sysinfo_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\sysinfo\base\sysinfo_base_select.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\base\timer_base_close.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\base\timer_base_open.c"  />
+    <ClCompile Include="F:\ProjectExt\ompi-examples\ompi-release\opal\mca\timer\windows\timer_windows_component.c"  />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
